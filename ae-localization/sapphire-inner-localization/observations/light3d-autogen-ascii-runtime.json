@@ -1,0 +1,15 @@
+{
+  "test_id": "G_Light3D",
+  "observed_at_local": "2026-09-03 Asia/Shanghai",
+  "source": "operator-supplied After Effects screenshot in current Codex thread",
+  "host": "After Effects 25.6.4",
+  "target_effect": "S_Light3D",
+  "modified_definition": "Light3D_Autogen",
+  "parameter_key": "ambient_bright",
+  "injected_title_ascii": "Probe",
+  "result": "PASS: effect instantiated and the ECP row previously labeled Ambient Bright displayed Probe.",
+  "initialization_error": false,
+  "original_sapphire_core_sha256": "3A01082AD1D1F3189B9929B717BFD384FB5676BB0BC927F9E2141FAF54C07482",
+  "isolated_runtime_core_sha256": "1FE6327C7D43ECB9B1BA8A6929108095B5905648251DDEC55D592C1AC8D22DBC",
+  "limits": "This validates only the Autogen definition path and ASCII title syntax. Chinese byte encoding has not yet been runtime-tested."
+}

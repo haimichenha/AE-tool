@@ -1,0 +1,13 @@
+{
+  "test_effect": "O_Light3D",
+  "installed_aex": "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\O_Light3D.aex",
+  "installed_aex_sha256": "C5ABE5E85504E80A51C96A895D2C07DAEBF4AC966766F5233CB86913981FCFFD",
+  "runtime": "D:\\tmp\\saprt\\l3dao",
+  "runtime_core_sha256": "410C69A61BEC964322550ECC8662D60E454C1984175E2850B4244B02C31A7B91",
+  "runtime_mocha_ui_sha256": "9247EAAD765B9356E8C5E77EA7E4FF6E822D615718316B01287092248BBECD3A",
+  "original_core_sha256": "3A01082AD1D1F3189B9929B717BFD384FB5676BB0BC927F9E2141FAF54C07482",
+  "original_mocha_ui_sha256": "969E1724C74FB4A661043E626FE92E8C29F062038C8D1BF647C99051F23DC029",
+  "wrapper_root_override": "D:\\tmp\\saprt\\l3dao",
+  "ui_probe": "Track motion options -> 跟踪运动选项",
+  "created_at_utc": "2026-09-03T12:11:36.9932751Z"
+}

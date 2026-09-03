@@ -1,0 +1,20 @@
+{
+  "observed_at_local": "2026-09-03 Asia/Shanghai",
+  "scope": "static preflight only; not deployed",
+  "effect": "Light3D_Autogen",
+  "map_file": "maps/Light3D-zh-CN-full.json",
+  "mapped_parameter_count": 54,
+  "encoding": "CP_OEMCP=936",
+  "definition_pointer_file_offset": "0x1D51E78",
+  "new_section": ".spcn",
+  "internal_parameter_keys_unchanged": true,
+  "modified_definition_content": "only title directives added",
+  "layout_defaults_expressions_popup_values_unchanged": true,
+  "normalizer_patch": {
+    "postimage": "85C0750484DB7948",
+    "rva": "0xD54525",
+    "preimage": "85C0750433FFEB48"
+  },
+  "trial_sha256": "3F1C7BC6DB490680A9D962AEDD8EA5222B0FACA8407590F51844E3DB47FFEF50",
+  "original_core_sha256": "3A01082AD1D1F3189B9929B717BFD384FB5676BB0BC927F9E2141FAF54C07482"
+}

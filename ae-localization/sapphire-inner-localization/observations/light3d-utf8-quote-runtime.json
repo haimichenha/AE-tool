@@ -1,0 +1,14 @@
+{
+  "test": "Light3D UTF-8 quoted title",
+  "runtime_core": "D:\\tmp\\saprt\\u8\\lib64\\sapphire_ae.dll",
+  "runtime_core_sha256": "1B8B7F46363481A9EA2BC977A0F2F9007A36D38266D2F818E8CE8EE8AE5A4D42",
+  "effect": "U_Light3D",
+  "user_observation": {
+    "effect_adds": true,
+    "render_affects_source": true,
+    "ambient_bright_ecp_label": "Ambient Bright",
+    "expected_utf8_title": "环境亮度",
+    "result": "UTF-8 quoted title did not replace the ECP label"
+  },
+  "conclusion": "Both raw high-byte encodings fall back to the generated English title. The next probe uses ASCII-only Unicode escape syntax."
+}

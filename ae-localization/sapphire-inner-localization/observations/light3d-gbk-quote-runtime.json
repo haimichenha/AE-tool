@@ -1,0 +1,14 @@
+{
+  "test": "Light3D GBK quoted title",
+  "runtime_core": "D:\\tmp\\saprt\\l3d\\lib64\\sapphire_ae.dll",
+  "runtime_core_sha256": "82BAF995074EFE4500140E632A3C7A8BAF4CDC06F9D66C42DAC30CF207D3A132",
+  "effect": "T_Light3D",
+  "user_observation": {
+    "effect_adds": true,
+    "render_affects_source": true,
+    "ambient_bright_ecp_label": "Ambient Bright",
+    "expected_gbk_title": "环境亮度",
+    "result": "GBK quoted title did not replace the ECP label"
+  },
+  "conclusion": "The DSL title route is active (prior ASCII Probe test), but this GBK quoted title does not render as Chinese in AE 25.6.4."
+}

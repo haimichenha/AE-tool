@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-03T12:25:56.0272271Z",
+  "target": "D:\\tmp\\saprt\\l3dao\\lib64\\BorisFX.Sapphire.mocha.em64t\\mocha4bcc.dll",
+  "source": "D:\\tmp\\sapphire-patch-lab\\trials\\mocha_menu_batch_utf8\\mocha4bcc.dll",
+  "backup": "D:\\tmp\\saprt\\l3dao\\lib64\\BorisFX.Sapphire.mocha.em64t\\mocha4bcc.dll.before-menu-batch",
+  "before_sha256": "E2E8A58F7852CB4E16EE41703BBBCD4E56DEDFF874FC8512FC9DDC1DD4EB1407",
+  "after_sha256": "F5B853EFBEA11AAFB1FBD0226275301CD3758F21FA8A9FC25AA4BB3C0EF50FD1",
+  "process_preflight": "AfterFX/mocha-wrapper/mochaui/mochapro not running",
+  "mappings": 24,
+  "encoding": "UTF-8",
+  "note": "O_Light3D isolated Mocha runtime only; original BorisFX installation untouched."
+}

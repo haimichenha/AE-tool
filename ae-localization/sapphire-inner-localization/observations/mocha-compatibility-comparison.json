@@ -1,0 +1,23 @@
+{
+  "observed_at_local": "2026-09-03 Asia/Shanghai",
+  "scope": "read-only compatibility comparison; no files changed",
+  "sapphire_embedded": {
+    "sha256": "969E1724C74FB4A661043E626FE92E8C29F062038C8D1BF647C99051F23DC029",
+    "file": "C:\\Program Files\\BorisFX\\Sapphire 2024 Adobe\\lib64\\BorisFX.Sapphire.mocha.em64t\\mocha4bcc.dll",
+    "exact_cjk_ui_terms_found": 0,
+    "version": "9.5.5.35"
+  },
+  "mocha_pro_2026": {
+    "sha256": "673AA991495B22C622E8144B088ACC26BEE0E10EB08E856F62F8DD883BBD754D",
+    "file": "C:\\Program Files\\Adobe\\Common\\Plug-ins\\7.0\\MediaCore\\BorisFX\\MochaPro2026\\Resources\\mochaui\\bin\\mocha.dll",
+    "translation_marker": "CGZY.NET 汉化",
+    "utf8_cjk_strings_found": 10,
+    "version": "2026.0.0.264"
+  },
+  "mocha_pro_2022_registry": {
+    "install_location": "D:\\ChaJian\\缩放",
+    "path_exists": false
+  },
+  "conclusion": "The available Chinese-modified Mocha binary is a different major version and contains only a small embedded Chinese string set. It is not a compatible resource source for direct copying into Sapphire Mocha 9.5.5.",
+  "next_safe_step": "Obtain the exact Chinese Mocha 9.5.5 installation/resources, or separately map and test only equal-length UI strings in an isolated copy."
+}

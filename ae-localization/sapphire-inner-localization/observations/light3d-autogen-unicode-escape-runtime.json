@@ -1,0 +1,13 @@
+{
+  "test_id": "J_Light3D",
+  "observed_at_local": "2026-09-03 Asia/Shanghai",
+  "source": "operator-supplied After Effects screenshot in current Codex thread",
+  "target_effect": "S_Light3D",
+  "modified_definition": "Light3D_Autogen",
+  "parameter_key": "ambient_bright",
+  "injected_title": "\\u73AF\\u5883\\u4EAE\\u5EA6",
+  "encoding": "ASCII literal backslash-u sequence",
+  "result": "TITLE ROUTE PASS; NO ESCAPE DECODING: title rendered as the literal escape text.",
+  "initialization_error": false,
+  "inference": "The DSL title parser does not decode the tested Unicode escape syntax."
+}

@@ -1,0 +1,15 @@
+{
+  "observed_at_local": "2026-09-03 Asia/Shanghai",
+  "scope": "read-only comparison of installed After Effects built-in effect localization and Sapphire isolated test",
+  "builtin_plugin": "Effects\\AutoColor.aex",
+  "builtin_embedded_key": "$$$/AE/Auto_Color/LStr/0002=Temporal Smoothing (seconds)",
+  "zh_cn_dictionary": "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Dictionaries\\zh_CN\\after_effects_zh_CN.dat",
+  "zh_cn_mapping": "$$$/AE/Auto_Color/LStr/0002=瞬时平滑（秒）",
+  "sapphire_title_normalizer_rva": "0xD54525",
+  "sapphire_original_bytes": "85 C0 75 04 33 FF EB 48",
+  "sapphire_behavior": "Calls CRT isprint before copying title bytes; high-bit GBK bytes are skipped in the tested path.",
+  "system_acp": 936,
+  "system_oemcp": 936,
+  "gbk_bytes_for_环境亮度": "BBB7BEB3C1C1B6C8",
+  "next_test": "Preserve high-bit bytes in the Sapphire title normalizer, then retest the same GBK title in an isolated copy."
+}

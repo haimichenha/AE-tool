@@ -1,0 +1,11 @@
+{
+  "test_effect": "I_Light3D",
+  "installed_aex": "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\I_Light3D.aex",
+  "installed_aex_sha256": "7A9C72FC48A58150E32ACC61965D8D72C3D218968C3ACEB9476D15F515C78C9D",
+  "runtime": "D:\\tmp\\saprt\\l3dai",
+  "runtime_core": "D:\\tmp\\saprt\\l3dai\\lib64\\sapphire_ae.dll",
+  "runtime_core_sha256": "A899AD2EB8738054E5F35CE952BD397156CD9B529E3B6B868D6678F3F76DF760",
+  "original_core_sha256": "3A01082AD1D1F3189B9929B717BFD384FB5676BB0BC927F9E2141FAF54C07482",
+  "title_target": "Light3D_Autogen: ambient_bright -> 环境亮度 (UTF-8)",
+  "created_at_utc": "2026-09-03T06:33:08.6187195Z"
+}

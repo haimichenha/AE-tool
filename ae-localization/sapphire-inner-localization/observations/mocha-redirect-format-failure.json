@@ -1,0 +1,8 @@
+{
+  "test_id": "N_Light3D Mocha redirect",
+  "observed_at_local": "2026-09-03 Asia/Shanghai",
+  "source": "operator-supplied After Effects crash screenshot",
+  "result": "FAIL: effect N_Light3D crashed before Mocha UI verification.",
+  "static_cause": "The failed redirect replaced the wrapper format string with a literal path. Disassembly shows all five sites pass the original %s format and a root argument to formatter 0xD35370.",
+  "next_trial": "Keep the original format string; redirect only its root argument through an executable thunk."
+}

@@ -1,0 +1,165 @@
+{
+  "source": "D:\\tmp\\sapphire-patch-lab\\sapphire_ae.dll",
+  "source_sha256": "3A01082AD1D1F3189B9929B717BFD384FB5676BB0BC927F9E2141FAF54C07482",
+  "parameter": "ambient_bright",
+  "total_occurrences": 11,
+  "occurrences": [
+    {
+      "file_offset": "0x186B75C",
+      "section": {
+        "name": ".rdata",
+        "rva": "0x186C95C"
+      },
+      "owner_kind": "symbol_pool",
+      "owner": "ambient_bright",
+      "role": "symbol_pool",
+      "owner_cstring_start": "0x186B75C",
+      "owner_cstring_length": 14,
+      "context": "ambient_bright"
+    },
+    {
+      "file_offset": "0x193DA9A",
+      "section": {
+        "name": ".rdata",
+        "rva": "0x193EC9A"
+      },
+      "owner_kind": "def_effect",
+      "owner": "Light3D",
+      "role": "parameter_definition",
+      "owner_cstring_start": "0x193DA40",
+      "owner_cstring_length": 2674,
+      "context": "t Light3D ( Source Normals ( Mask 1 ) ) ( no_alpha_only rgba_ok_for_input 2 ) ( ambient_bright = 0.2 ( min * slider_range 0 1 ) blur_mask = 0 ( :blur_mask ) brightness = 1 diffuse_bright = 0.5 ( slide"
+    },
+    {
+      "file_offset": "0x193E269",
+      "section": {
+        "name": ".rdata",
+        "rva": "0x193F469"
+      },
+      "owner_kind": "def_effect",
+      "owner": "Light3D",
+      "role": "expression_or_argument_list",
+      "owner_cstring_start": "0x193DA40",
+      "owner_cstring_length": 2674,
+      "context": " v4 diffuse_bright_1 diffuse_bright_2 diffuse_bright_3 diffuse_bright_4 ) ) ( * ambient_bright brightness ) ( v4 light1_enable light2_enable light3_enable light4_enable ) ( * light1_color brightness )"
+    },
+    {
+      "file_offset": "0x193E522",
+      "section": {
+        "name": ".rdata",
+        "rva": "0x193F722"
+      },
+      "owner_kind": "def_effect",
+      "owner": "Light3D_Autogen",
+      "role": "parameter_definition",
+      "owner_cstring_start": "0x193E4C0",
+      "owner_cstring_length": 3506,
+      "context": "D_Autogen ( Source Normals ( Mask 1 ) ) ( no_alpha_only rgba_ok_for_input 2 ) ( ambient_bright = 0.2 ( min * slider_range 0 1 ) blur_mask = 0 ( show_with_mask normalize_scale 4 slider_max 2 ) brightne"
+    },
+    {
+      "file_offset": "0x193F024",
+      "section": {
+        "name": ".rdata",
+        "rva": "0x1940224"
+      },
+      "owner_kind": "def_effect",
+      "owner": "Light3D_Autogen",
+      "role": "expression_or_argument_list",
+      "owner_cstring_start": "0x193E4C0",
+      "owner_cstring_length": 3506,
+      "context": "_mocha_rel_y shift_mocha_mask ) result = ( Light3D Source Normals combined_mask ambient_bright 0 brightness diffuse_bright diffuse_bright_1 diffuse_bright_2 diffuse_bright_3 diffuse_bright_4 hilight_b"
+    },
+    {
+      "file_offset": "0x1982511",
+      "section": {
+        "name": ".rdata",
+        "rva": "0x1983711"
+      },
+      "owner_kind": "def_effect",
+      "owner": "SpotLight",
+      "role": "parameter_definition",
+      "owner_cstring_start": "0x1982360",
+      "owner_cstring_length": 3782,
+      "context": "r = [ 1 1 1 ] all_shift = [ 0 0 ] ( normalize_scale 1 min * slider_range -2 2 ) ambient_bright = 0.2 ( min * slider_range 0 1 ) ambient_color = [ 1 1 1 ] ( color ) combine = 1 ( popup Lights_Only Mult"
+    },
+    {
+      "file_offset": "0x198310E",
+      "section": {
+        "name": ".rdata",
+        "rva": "0x198430E"
+      },
+      "owner_kind": "def_effect",
+      "owner": "SpotLight",
+      "role": "expression_or_argument_list",
+      "owner_cstring_start": "0x1982360",
+      "owner_cstring_length": 3782,
+      "context": ") scale_all ) ) all_light = ( + ( + spot_color1 spot_color2 ) ( * ambient_color ambient_bright ) ) ) ( if> combine 3 ( overlay_super_if_needed all_light Background ) ( if> combine 2 ( screen_super_if_"
+    },
+    {
+      "file_offset": "0x1983738",
+      "section": {
+        "name": ".rdata",
+        "rva": "0x1984938"
+      },
+      "owner_kind": "def_effect",
+      "owner": "SpotLight_Autogen",
+      "role": "parameter_definition",
+      "owner_cstring_start": "0x1983560",
+      "owner_cstring_length": 3802,
+      "context": "r = [ 1 1 1 ] all_shift = [ 0 0 ] ( normalize_scale 1 min * slider_range -2 2 ) ambient_bright = 0.2 ( min * slider_range 0 1 ) ambient_color = [ 1 1 1 ] ( color ) combine = 1 ( popup Lights_Only Mult"
+    },
+    {
+      "file_offset": "0x1984242",
+      "section": {
+        "name": ".rdata",
+        "rva": "0x1985442"
+      },
+      "owner_kind": "def_effect",
+      "owner": "SpotLight_Autogen",
+      "role": "expression_or_argument_list",
+      "owner_cstring_start": "0x1983560",
+      "owner_cstring_length": 3802,
+      "context": "ackground aim1 aim2 all_aims_shift all_lights_bright all_lights_color all_shift ambient_bright ambient_color combine falloff_power1 falloff_power2 light1 light1_bright light1_color light1_enable light"
+    },
+    {
+      "file_offset": "0x1A54961",
+      "section": {
+        "name": ".rdata",
+        "rva": "0x1A55B61"
+      },
+      "owner_kind": "layout_effect",
+      "owner": "Light3D",
+      "role": "layout_effect",
+      "owner_cstring_start": "0x1A54660",
+      "owner_cstring_length": 2040,
+      "context": " 529 ) ) ( :modify combine_masks ( id_insert 530 group_end mocha ) ) brightness ambient_bright ( :modify diffuse_bright ( min .1 ) ) hilight_bright ( :modify hilight_size ( min .1 ) ) ( :modify light1"
+    },
+    {
+      "file_offset": "0x1A6C3A3",
+      "section": {
+        "name": ".rdata",
+        "rva": "0x1A6D5A3"
+      },
+      "owner_kind": "layout_effect",
+      "owner": "SpotLight",
+      "role": "layout_effect",
+      "owner_cstring_start": "0x1A6BC80",
+      "owner_cstring_length": 2040,
+      "context": "softness2 ( max 1 ) ) ( :modify falloff_power2 ( group_end light2 ) ) ( :modify ambient_bright ( new_column ) ) ambient_color ( :modify all_lights_bright ( group_start all_lights ) ) ( :modify all_lig"
+    }
+  ],
+  "title_directives": [
+    {
+      "effect": "Wipe_Flux",
+      "file_offset": "0x19CA357",
+      "directive": "title freq_rel_x"
+    }
+  ],
+  "Light3D_title_insertion_assessment": {
+    "parameter_clause": "ambient_bright = 0.2 ( min * slider_range 0 1 )",
+    "required_added_bytes_for_title_环境亮度": 17,
+    "bytes_after_owning_cstring_nul_hex": "0000000000000000000000000000286465665F656666656374204C6967687433",
+    "adjacent_storage_available_without_relocation": false,
+    "reason": "The Light3D definition string is immediately followed by another non-NUL string; no in-place slack exists after its terminator."
+  }
+}

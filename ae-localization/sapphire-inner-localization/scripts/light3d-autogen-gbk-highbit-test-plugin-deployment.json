@@ -1,0 +1,11 @@
+{
+  "test_effect": "K_Light3D",
+  "installed_aex": "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\K_Light3D.aex",
+  "installed_aex_sha256": "68539A65181DE6ADAC3F47933664BA6D281285A6C72953EFF0573E61FDACD57D",
+  "runtime": "D:\\tmp\\saprt\\l3dak",
+  "runtime_core": "D:\\tmp\\saprt\\l3dak\\lib64\\sapphire_ae.dll",
+  "runtime_core_sha256": "B70023A72180C4626728987021B362D60218C5C8644B2AAF13331F0B57DC7049",
+  "original_core_sha256": "3A01082AD1D1F3189B9929B717BFD384FB5676BB0BC927F9E2141FAF54C07482",
+  "title_target": "Light3D_Autogen: ambient_bright -> 环境亮度 (GBK) with high-bit title normalization",
+  "created_at_utc": "2026-09-03T07:47:12.6061313Z"
+}

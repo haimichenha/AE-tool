@@ -1,0 +1,26 @@
+# Vendor and runtime binaries
+*.dll
+*.aex
+*.exe
+*.em64t
+*.zip
+*.7z
+*.rar
+*.msi
+
+# Generated or sensitive local state
+__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+credentials*.json
+settings.local.json
+
+# Test/runtime directories
+trials/
+logs/
+outputs/

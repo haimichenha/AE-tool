@@ -1,0 +1,13 @@
+{
+  "test": "Light3D relocated definition ASCII title",
+  "runtime_core": "D:\\tmp\\saprt\\l3da\\lib64\\sapphire_ae.dll",
+  "runtime_core_sha256": "007E7D4AAF81B4CC5ACF027E63F7432A7ECBB89A2F5BAEC256CEE9F3A9D73492",
+  "effect": "A_Light3D",
+  "user_observation": {
+    "effect_adds": true,
+    "ambient_bright_ecp_label": "Ambient Bright",
+    "expected_title": "Probe",
+    "result": "ECP ignored the def_effect title for this layout-driven parameter"
+  },
+  "conclusion": "The Light3D ECP title path differs from WipeFlux and is not controlled by the relocated def_effect title field."
+}

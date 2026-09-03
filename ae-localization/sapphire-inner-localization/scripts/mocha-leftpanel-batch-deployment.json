@@ -1,0 +1,9 @@
+{
+  "test_effect": "O_Light3D",
+  "runtime_ui": "D:\\tmp\\saprt\\l3dao\\lib64\\BorisFX.Sapphire.mocha.em64t\\mocha4bcc.dll",
+  "pre_batch_backup": "D:\\tmp\\saprt\\l3dao\\lib64\\BorisFX.Sapphire.mocha.em64t\\mocha4bcc.dll.before-leftpanel-batch",
+  "pre_batch_sha256": "9247EAAD765B9356E8C5E77EA7E4FF6E822D615718316B01287092248BBECD3A",
+  "post_batch_sha256": "E2E8A58F7852CB4E16EE41703BBBCD4E56DEDFF874FC8512FC9DDC1DD4EB1407",
+  "patched_ui_string_count": 11,
+  "created_at_utc": "2026-09-03T12:17:31.5260333Z"
+}

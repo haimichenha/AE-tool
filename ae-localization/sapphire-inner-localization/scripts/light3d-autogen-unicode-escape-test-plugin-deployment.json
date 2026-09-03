@@ -1,0 +1,11 @@
+{
+  "test_effect": "J_Light3D",
+  "installed_aex": "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\J_Light3D.aex",
+  "installed_aex_sha256": "2F8FB5769088453449753A54B06D8E174BE79B5C7FB311D60D2DA8E079284545",
+  "runtime": "D:\\tmp\\saprt\\l3daj",
+  "runtime_core": "D:\\tmp\\saprt\\l3daj\\lib64\\sapphire_ae.dll",
+  "runtime_core_sha256": "15DB3A35879945EDC082F9914966A2792D753FA2038D05AEB274E30280CEE4C4",
+  "original_core_sha256": "3A01082AD1D1F3189B9929B717BFD384FB5676BB0BC927F9E2141FAF54C07482",
+  "title_target": "Light3D_Autogen: ambient_bright -> \\\\u73AF\\\\u5883\\\\u4EAE\\\\u5EA6",
+  "created_at_utc": "2026-09-03T06:37:23.0191219Z"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grok Software Execution"
+  short_description: "Evidence-gated Grok workflow for software tasks"
+  default_prompt: "Use Grok software execution to inspect, act, verify, and continue until acceptance criteria are met."

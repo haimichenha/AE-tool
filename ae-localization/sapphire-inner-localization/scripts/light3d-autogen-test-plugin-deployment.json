@@ -1,0 +1,11 @@
+{
+  "test_effect": "G_Light3D",
+  "installed_aex": "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\G_Light3D.aex",
+  "installed_aex_sha256": "6D8790634BB3F19361E71038961FBA8BE2C9E1406C9DF5879BC311BDE11C54A5",
+  "runtime": "D:\\tmp\\saprt\\l3dag",
+  "runtime_core": "D:\\tmp\\saprt\\l3dag\\lib64\\sapphire_ae.dll",
+  "runtime_core_sha256": "1FE6327C7D43ECB9B1BA8A6929108095B5905648251DDEC55D592C1AC8D22DBC",
+  "original_core_sha256": "3A01082AD1D1F3189B9929B717BFD384FB5676BB0BC927F9E2141FAF54C07482",
+  "title_target": "Light3D_Autogen: ambient_bright -> Probe",
+  "created_at_utc": "2026-09-03T06:24:00.6091827Z"
+}

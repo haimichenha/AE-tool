@@ -1,0 +1,14 @@
+{
+  "test_id": "I_Light3D",
+  "observed_at_local": "2026-09-03 Asia/Shanghai",
+  "source": "operator-supplied After Effects result in current Codex thread",
+  "target_effect": "S_Light3D",
+  "modified_definition": "Light3D_Autogen",
+  "parameter_key": "ambient_bright",
+  "injected_title": "环境亮度",
+  "encoding": "UTF-8",
+  "result": "TITLE ROUTE PASS; ENCODING FAIL: effect instantiated, but its title row rendered blank.",
+  "initialization_error": false,
+  "inference": "Both GBK and UTF-8 raw multi-byte titles render blank. The remaining fault is likely the core title parser/conversion boundary, not the selected Autogen definition.",
+  "next_test": "ASCII Unicode escape sequence in the same Autogen title field; parser support remains unproven."
+}

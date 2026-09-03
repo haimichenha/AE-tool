@@ -1,0 +1,15 @@
+{
+  "test_id": "M_Light3D",
+  "observed_at_local": "2026-09-03 Asia/Shanghai",
+  "source": "operator-supplied After Effects/Mocha screenshots and confirmation in current Codex thread",
+  "host": "After Effects 25.6.4, zh-CN",
+  "target_effect": "S_Light3D",
+  "mapped_parameter_count": 54,
+  "title_encoding": "CP936",
+  "result": "PASS: operator reports the localized effect broadly satisfies display requirements and use appears normal; no obvious visual difference from the original effect.",
+  "mocha_launch": "Sapphire Mocha opened successfully; UI remains English and is out of scope for the Light3D title patch.",
+  "internal_parameter_keys_unchanged": true,
+  "original_sapphire_core_sha256": "3A01082AD1D1F3189B9929B717BFD384FB5676BB0BC927F9E2141FAF54C07482",
+  "isolated_runtime_core_sha256": "3F1C7BC6DB490680A9D962AEDD8EA5222B0FACA8407590F51844E3DB47FFEF50",
+  "remaining_validation": "FFX/expression persistence and shared controls remain separate tests."
+}

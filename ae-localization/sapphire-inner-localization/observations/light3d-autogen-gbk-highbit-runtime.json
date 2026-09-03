@@ -1,0 +1,22 @@
+{
+  "test_id": "K_Light3D",
+  "observed_at_local": "2026-09-03 Asia/Shanghai",
+  "source": "operator-supplied After Effects screenshot and confirmation in current Codex thread",
+  "host": "After Effects 25.6.4, zh-CN, ACP/OEMCP 936",
+  "target_effect": "S_Light3D",
+  "modified_definition": "Light3D_Autogen",
+  "parameter_key": "ambient_bright",
+  "injected_title": "环境亮度",
+  "title_encoding": "GBK / CP936",
+  "normalizer_patch": {
+    "postimage": "85C0750484DB7948",
+    "behavior": "Preserve high-bit bytes; continue to discard ASCII control bytes.",
+    "rva": "0xD54525",
+    "preimage": "85C0750433FFEB48"
+  },
+  "result": "PASS: ECP displayed 环境亮度 and operator confirmed normal effect behavior.",
+  "initialization_error": false,
+  "original_sapphire_core_sha256": "3A01082AD1D1F3189B9929B717BFD384FB5676BB0BC927F9E2141FAF54C07482",
+  "isolated_runtime_core_sha256": "B70023A72180C4626728987021B362D60218C5C8644B2AAF13331F0B57DC7049",
+  "reusable_conclusion": "For Chinese parameter titles: patch the active Autogen definition, encode to CP_OEMCP, and retain high-bit bytes in Sapphire title normalization."
+}

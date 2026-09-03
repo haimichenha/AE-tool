@@ -1,0 +1,14 @@
+{
+  "test_id": "H_Light3D",
+  "observed_at_local": "2026-09-03 Asia/Shanghai",
+  "source": "operator-supplied After Effects screenshot in current Codex thread",
+  "target_effect": "S_Light3D",
+  "modified_definition": "Light3D_Autogen",
+  "parameter_key": "ambient_bright",
+  "injected_title": "环境亮度",
+  "encoding": "GBK / code page 936",
+  "result": "TITLE ROUTE PASS; ENCODING FAIL: effect instantiated, but its title row rendered blank.",
+  "initialization_error": false,
+  "inference": "The title directive is consumed, but the ECP text boundary does not render these GBK bytes.",
+  "next_test": "UTF-8 quoted title in the same Autogen definition."
+}

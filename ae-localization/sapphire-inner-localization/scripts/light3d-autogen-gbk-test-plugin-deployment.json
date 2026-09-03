@@ -1,0 +1,11 @@
+{
+  "test_effect": "H_Light3D",
+  "installed_aex": "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\H_Light3D.aex",
+  "installed_aex_sha256": "CF6A8184C2573AB385AB9FF41959F40FC50F546B9015556CB6CD0E5EE2073874",
+  "runtime": "D:\\tmp\\saprt\\l3dah",
+  "runtime_core": "D:\\tmp\\saprt\\l3dah\\lib64\\sapphire_ae.dll",
+  "runtime_core_sha256": "8645FD0375651C51EEDBF9C7FD793EEAA9255F1CF453047937181043B3637B24",
+  "original_core_sha256": "3A01082AD1D1F3189B9929B717BFD384FB5676BB0BC927F9E2141FAF54C07482",
+  "title_target": "Light3D_Autogen: ambient_bright -> 环境亮度 (GBK)",
+  "created_at_utc": "2026-09-03T06:29:50.5290585Z"
+}

@@ -1,0 +1,20 @@
+{
+  "observed_at_local": "2026-09-03 Asia/Shanghai",
+  "source": "live process/module capture while Sapphire Mocha window was open",
+  "test_effect": "M_Light3D",
+  "wrapper_process": {
+    "pid": 38232,
+    "parent_process": "AfterFX.exe",
+    "path": "C:\\Program Files\\BorisFX\\Sapphire 2024 Adobe\\lib64\\mocha-wrapper.exe"
+  },
+  "loaded_ui_dll": {
+    "sha256": "969E1724C74FB4A661043E626FE92E8C29F062038C8D1BF647C99051F23DC029",
+    "path": "C:\\Program Files\\BorisFX\\Sapphire 2024 Adobe\\lib64\\BorisFX.Sapphire.mocha.em64t\\mocha4bcc.dll"
+  },
+  "isolated_ui_dll": {
+    "sha256": "9247EAAD765B9356E8C5E77EA7E4FF6E822D615718316B01287092248BBECD3A",
+    "path": "D:\\tmp\\saprt\\l3dam\\lib64\\BorisFX.Sapphire.mocha.em64t\\mocha4bcc.dll"
+  },
+  "result": "The single-string patch was correct in the isolated copy but was not loaded. Sapphire resolved the wrapper to the original installation root.",
+  "next_trial": "Redirect all five sapphire_ae.dll mocha-wrapper format references to D:\\tmp\\saprt\\l3dan before launching Mocha."
+}

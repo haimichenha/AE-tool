@@ -1,0 +1,9 @@
+{
+  "source": "D:\\tmp\\saprt\\l3da\\plugins64\\Sapphire Plug-ins\\Sapphire Lighting\\A_Light3D.aex",
+  "source_sha256": "F3D34460E455A370D7F92FFA0C6B3BC863D6EA24EB68067B14AC61CA1F771243",
+  "installed_test_aex": "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\A_Light3D.aex",
+  "installed_test_aex_sha256": "F3D34460E455A370D7F92FFA0C6B3BC863D6EA24EB68067B14AC61CA1F771243",
+  "installed_at_utc": "2026-09-03T06:03:20.0851827Z",
+  "runtime_core": "D:\\tmp\\saprt\\l3da\\lib64\\sapphire_ae.dll",
+  "runtime_core_sha256": "007E7D4AAF81B4CC5ACF027E63F7432A7ECBB89A2F5BAEC256CEE9F3A9D73492"
+}

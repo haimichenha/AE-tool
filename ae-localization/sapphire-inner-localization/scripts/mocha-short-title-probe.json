@@ -1,0 +1,12 @@
+{
+  "test_id": "M_Light3D Mocha short-string probe",
+  "target": "D:\\tmp\\saprt\\l3dam\\lib64\\BorisFX.Sapphire.mocha.em64t\\mocha4bcc.dll",
+  "backup": "D:\\tmp\\saprt\\l3dam\\lib64\\BorisFX.Sapphire.mocha.em64t\\mocha4bcc.dll.before-track-title",
+  "preimage_ascii": "Track motion options",
+  "replacement_utf8": "跟踪运动选项",
+  "file_offset": "0x356E330",
+  "preimage_bytes": 20,
+  "replacement_bytes": 18,
+  "pristine_sha256": "969E1724C74FB4A661043E626FE92E8C29F062038C8D1BF647C99051F23DC029",
+  "patched_sha256": "9247EAAD765B9356E8C5E77EA7E4FF6E822D615718316B01287092248BBECD3A"
+}

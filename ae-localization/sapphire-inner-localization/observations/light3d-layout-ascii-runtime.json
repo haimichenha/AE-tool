@@ -1,0 +1,11 @@
+{
+  "test": "Light3D relocated layout modify alias",
+  "runtime_core": "D:\\tmp\\saprt\\l3dl\\lib64\\sapphire_ae.dll",
+  "runtime_core_sha256": "67D51AE9678F3B984FC5ADFF10B91A192733EB2DD7BE5430AF92353279FD2E0A",
+  "effect": "L_Light3D",
+  "user_observation": {
+    "layout_transform": "(:modify ambient_bright Probe)",
+    "result": "effect initialization error 25::3"
+  },
+  "conclusion": "The second :modify operand is not a free display string; this syntax cannot be used as an arbitrary ECP alias."
+}

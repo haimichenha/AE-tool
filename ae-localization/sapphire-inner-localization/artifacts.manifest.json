@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "purpose": "Fingerprint-only record for source-only reconstruction; no binary payload is stored in this repository.",
+  "baseline": {
+    "sapphire_core": {
+      "relative_role": "vendor-installed lib64/sapphire_ae.dll",
+      "sha256": "3A01082AD1D1F3189B9929B717BFD384FB5676BB0BC927F9E2141FAF54C07482",
+      "bytes": 68141056
+    },
+    "mocha_ui": {
+      "relative_role": "vendor-installed lib64/BorisFX.Sapphire.mocha.em64t/mocha4bcc.dll",
+      "sha256": "969E1724C74FB4A661043E626FE92E8C29F062038C8D1BF647C99051F23DC029",
+      "bytes": 76501808
+    },
+    "light3d_aex": {
+      "relative_role": "vendor-installed plugins64/Sapphire Plug-ins/Sapphire Lighting/S_Light3D.aex",
+      "sha256": "888BB1C868D1DE4488FABDCF33CCB320400659329DC80F16FBB463B6B8F26D4C",
+      "bytes": 103936
+    }
+  },
+  "verified_isolated_outputs": {
+    "light3d_test_aex": {
+      "relative_role": "isolated O_Light3D.aex test identity",
+      "sha256": "C5ABE5E85504E80A51C96A895D2C07DAEBF4AC966766F5233CB86913981FCFFD",
+      "bytes": 103936
+    },
+    "light3d_root_thunk_core": {
+      "relative_role": "isolated runtime lib64/sapphire_ae.dll",
+      "sha256": "410C69A61BEC964322550ECC8662D60E454C1984175E2850B4244B02C31A7B91",
+      "bytes": 68146688,
+      "input_sha256": "3F1C7BC6DB490680A9D962AEDD8EA5222B0FACA8407590F51844E3DB47FFEF50"
+    },
+    "mocha_menu_batch_ui": {
+      "relative_role": "isolated runtime lib64/BorisFX.Sapphire.mocha.em64t/mocha4bcc.dll",
+      "sha256": "F5B853EFBEA11AAFB1FBD0226275301CD3758F21FA8A9FC25AA4BB3C0EF50FD1",
+      "bytes": 76501808,
+      "patched_ui_string_count": 24,
+      "encoding": "UTF-8"
+    }
+  },
+  "source_inputs": {
+    "light3d_mapping": "maps/Light3D-zh-CN-full.json",
+    "light3d_builder": "scripts/new_light3d_bulk_trial.py",
+    "mocha_root_builder": "scripts/new_mocha_root_thunk_trial.py",
+    "mocha_menu_builder": "scripts/new_mocha_menu_batch_trial.py",
+    "protocol": "REPRODUCE.md"
+  }
+}

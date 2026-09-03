@@ -1,0 +1,74 @@
+{
+  "utc": "2026-09-03T12:51:10.4798393Z",
+  "static_audit": {
+    "required_builders": [
+      "new_light3d_bulk_trial.py",
+      "new_mocha_root_thunk_trial.py",
+      "new_mocha_menu_batch_trial.py",
+      "New-IsolatedSapphireRuntime.ps1",
+      "New-IsolatedTestAex.ps1"
+    ],
+    "protocol": "REPRODUCE.md",
+    "manifest": "artifacts.manifest.json"
+  },
+  "clean_rebuild": {
+    "result": "passed",
+    "mocha_menu_batch_sha256": "F5B853EFBEA11AAFB1FBD0226275301CD3758F21FA8A9FC25AA4BB3C0EF50FD1",
+    "mocha_root_thunk_sha256": "410C69A61BEC964322550ECC8662D60E454C1984175E2850B4244B02C31A7B91",
+    "light3d_full_sha256": "3F1C7BC6DB490680A9D962AEDD8EA5222B0FACA8407590F51844E3DB47FFEF50"
+  },
+  "retained": [
+    {
+      "role": "O_Light3D_aex",
+      "path": "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\O_Light3D.aex",
+      "sha": "C5ABE5E85504E80A51C96A895D2C07DAEBF4AC966766F5233CB86913981FCFFD"
+    },
+    {
+      "role": "isolated_core",
+      "path": "D:\\tmp\\saprt\\l3dao\\lib64\\sapphire_ae.dll",
+      "sha": "410C69A61BEC964322550ECC8662D60E454C1984175E2850B4244B02C31A7B91"
+    },
+    {
+      "role": "isolated_mocha_ui",
+      "path": "D:\\tmp\\saprt\\l3dao\\lib64\\BorisFX.Sapphire.mocha.em64t\\mocha4bcc.dll",
+      "sha": "F5B853EFBEA11AAFB1FBD0226275301CD3758F21FA8A9FC25AA4BB3C0EF50FD1"
+    }
+  ],
+  "cleanup": {
+    "removed": [
+      "D:\\tmp\\sapphire-patch-lab\\trials",
+      "D:\\tmp\\sapphire-patch-lab\\__pycache__",
+      "D:\\tmp\\sapphire-patch-lab\\sapphire_ae.dll",
+      "D:\\tmp\\saprt\\l3d",
+      "D:\\tmp\\saprt\\l3da",
+      "D:\\tmp\\saprt\\l3dag",
+      "D:\\tmp\\saprt\\l3dah",
+      "D:\\tmp\\saprt\\l3dai",
+      "D:\\tmp\\saprt\\l3daj",
+      "D:\\tmp\\saprt\\l3dak",
+      "D:\\tmp\\saprt\\l3dam",
+      "D:\\tmp\\saprt\\l3dan",
+      "D:\\tmp\\saprt\\l3dl",
+      "D:\\tmp\\saprt\\title",
+      "D:\\tmp\\saprt\\u8",
+      "D:\\tmp\\saprt\\uesc",
+      "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\A_Light3D.aex",
+      "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\E_Light3D.aex",
+      "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\G_Light3D.aex",
+      "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\H_Light3D.aex",
+      "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\I_Light3D.aex",
+      "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\J_Light3D.aex",
+      "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\K_Light3D.aex",
+      "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\L_Light3D.aex",
+      "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\M_Light3D.aex",
+      "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\N_Light3D.aex",
+      "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\T_Light3D.aex",
+      "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\T_WipeFlux.aex",
+      "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\U_Light3D.aex"
+    ],
+    "remaining_runtime": "D:\\tmp\\saprt\\l3dao",
+    "remaining_test_aex": "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\O_Light3D.aex",
+    "removed_count": 29
+  },
+  "original_installation": "not modified"
+}

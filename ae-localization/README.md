@@ -7,3 +7,6 @@ This folder groups the retained source-only materials by integration target. The
 `Sapphire` contains only source-level patch builders, UTF-8/GBK mapping inputs, and JSON observations. It does **not** contain a Sapphire binary, an After Effects plug-in binary, or any vendor-owned UI file. Deployment JSON records are evidence from isolated test copies, not reusable binaries.
 
 The records include unsuccessful probes so later work can distinguish measured outcomes from assumptions.
+
+
+See sapphire-inner-localization/REPRODUCE.md for the pinned reconstruction protocol and rtifacts.manifest.json for source/output fingerprints.

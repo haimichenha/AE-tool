@@ -1,0 +1,1725 @@
+{
+  "date": "2026-09-08",
+  "baseline_sha256": "969E1724C74FB4A661043E626FE92E8C29F062038C8D1BF647C99051F23DC029",
+  "candidate_sha256": "9141D09D02DD2E303E2BDB6F5BAB21844A441201562A5CE85790489FD0020030",
+  "repeat_build_identical": true,
+  "unit_tests": {
+    "passed": 5,
+    "failed": 0
+  },
+  "translated_context_source_pairs": 517,
+  "contexts": {
+    "AddMatteClipCommand": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "AddShapedContourCommand": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "AddVertexToEdge": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "AnimatedMeshTracker": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "AreaBrushCommand": {
+      "direct_sites": 5,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 5
+    },
+    "AreaBrushToolUI": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "AutoRecoverDialog": {
+      "direct_sites": 8,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 8
+    },
+    "CLException": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "CameraSolveExportDialog": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "CameraSolveExporter": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "CameraSolveFormat": {
+      "direct_sites": 4,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 4
+    },
+    "CameraSolvePage": {
+      "direct_sites": 57,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 57
+    },
+    "CameraType": {
+      "direct_sites": 7,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 7
+    },
+    "ChangeSplitViewsCommand": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "ClearCacheDialog": {
+      "direct_sites": 5,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 5
+    },
+    "ClipSaveHelper": {
+      "direct_sites": 4,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 4
+    },
+    "ClipboardDataReader": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "CloneLayerCommand": {
+      "direct_sites": 4,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 4
+    },
+    "CloseButton": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "ColourSettingsPanel": {
+      "direct_sites": 43,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 43
+    },
+    "ControlPointData": {
+      "direct_sites": 5,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 5
+    },
+    "CurveController": {
+      "direct_sites": 9,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 9
+    },
+    "CurveModel": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "CurveNode": {
+      "direct_sites": 11,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 11
+    },
+    "DeleteLayerCommand": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "DeleteMesh": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "DeleteVertices": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "DynamicClipID": {
+      "direct_sites": 12,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 12
+    },
+    "ExportDataDialogBase": {
+      "direct_sites": 14,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 14
+    },
+    "ExportFootageWidget": {
+      "direct_sites": 15,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 15
+    },
+    "FileSystem": {
+      "direct_sites": 6,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 6
+    },
+    "FootageImportRow": {
+      "direct_sites": 5,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 5
+    },
+    "GUI::AreaBrushToolUI": {
+      "direct_sites": 7,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 7
+    },
+    "GUI::AutoRecoverDialog": {
+      "direct_sites": 6,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 6
+    },
+    "GUI::Autosaver": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "GUI::ClearCacheDialog": {
+      "direct_sites": 3,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 3
+    },
+    "GUI::ColourChooserButton": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "GUI::ColourDialog": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "GUI::ColourSettingsPanel": {
+      "direct_sites": 22,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 22
+    },
+    "GUI::DopeSheetScene": {
+      "direct_sites": 3,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 3
+    },
+    "GUI::DopeSheetView": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "GUI::FootageImportRow": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "GUI::GroupVisibilityWidget": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "GUI::KeyboardPreferences": {
+      "direct_sites": 5,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 5
+    },
+    "GUI::KeyframeManager": {
+      "direct_sites": 9,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 9
+    },
+    "GUI::LayerControls": {
+      "direct_sites": 10,
+      "mapped_sites": 10,
+      "preserved_sites": 0,
+      "pending_sites": 0
+    },
+    "GUI::LayerTreeHeader": {
+      "direct_sites": 3,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 3
+    },
+    "GUI::LayerTreeProxyModel": {
+      "direct_sites": 9,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 9
+    },
+    "GUI::LayerTreeView": {
+      "direct_sites": 3,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 3
+    },
+    "GUI::LayoutManager": {
+      "direct_sites": 10,
+      "mapped_sites": 10,
+      "preserved_sites": 0,
+      "pending_sites": 0
+    },
+    "GUI::Licensing": {
+      "direct_sites": 3,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 3
+    },
+    "GUI::MCPPage": {
+      "direct_sites": 10,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 10
+    },
+    "GUI::MagneticShapeToolUI": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "GUI::NewProjectDialog": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "GUI::PreprocessingPanel": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "GUI::ReorientPage": {
+      "direct_sites": 3,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 3
+    },
+    "GUI::SelectionToolOptionsPanel": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "GUI::ShapeToolUI": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "GUI::ShortcutManager": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "GUI::Thread": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "GUI::ThreadManager": {
+      "direct_sites": 3,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 3
+    },
+    "GUI::TrackMeshTool": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "GUI::TrackMeshToolOverlay": {
+      "direct_sites": 3,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 3
+    },
+    "GUI::TrackMeshToolUI": {
+      "direct_sites": 4,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 4
+    },
+    "GUIApplication": {
+      "direct_sites": 6,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 6
+    },
+    "HitFilm": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "ISI_IPCError": {
+      "direct_sites": 24,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 24
+    },
+    "ISI_ImageIO_Gandalf": {
+      "direct_sites": 53,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 53
+    },
+    "ISI_ImageIO_Router": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "ISLClipComboBox": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "ISLControlForm": {
+      "direct_sites": 10,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 10
+    },
+    "ISLLayerComboBox": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "ISLShortcutEdit": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "ISLSlider": {
+      "direct_sites": 5,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 5
+    },
+    "IS_TrackingParameterSet": {
+      "direct_sites": 6,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 6
+    },
+    "ImportFootageDialog": {
+      "direct_sites": 73,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 73
+    },
+    "InsertBControlPointCommand": {
+      "direct_sites": 4,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 4
+    },
+    "InsertControlPointCommand": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "InsertXControlPointCommand": {
+      "direct_sites": 4,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 4
+    },
+    "Isildur::GanImageMemorySuite": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "Isildur::ISI_ImageIO_IPCClient": {
+      "direct_sites": 6,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 6
+    },
+    "Kernel": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "KeyPreferences": {
+      "direct_sites": 13,
+      "mapped_sites": 13,
+      "preserved_sites": 0,
+      "pending_sites": 0
+    },
+    "LC::BorisMaskCreationHost": {
+      "direct_sites": 8,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 8
+    },
+    "LC::BorisRenderHost": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "LC::DynamicClip": {
+      "direct_sites": 5,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 5
+    },
+    "LC::GPURemove": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "LC::HostSrcClip": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "LC::InsertRender": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "LC::TrackPreProcessClip": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "LCAM_AE3DExporterBase": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "LCAM_BaseClip": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "LCAM_CacheManager": {
+      "direct_sites": 6,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 6
+    },
+    "LCAM_Clip": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "LCAM_ErrorHandler": {
+      "direct_sites": 4,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 4
+    },
+    "LCAM_FCPMochaShapeExporter": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "LCAM_FrameManager": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "LCAM_Layer": {
+      "direct_sites": 5,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 5
+    },
+    "LCAM_Motion3DSolverAuto": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "LCAM_Motion3DSolverStrongPerspective": {
+      "direct_sites": 7,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 7
+    },
+    "LCAM_Motion3DSolverWeakPerspective": {
+      "direct_sites": 3,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 3
+    },
+    "LCAM_MoveControlPointCommand": {
+      "direct_sites": 6,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 6
+    },
+    "LCAM_ParameterManager": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "LCAM_PostProcManager": {
+      "direct_sites": 11,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 11
+    },
+    "LCAM_PreProcManager": {
+      "direct_sites": 14,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 14
+    },
+    "LCAM_ProgressDialog": {
+      "direct_sites": 20,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 20
+    },
+    "LCAM_ProjectManager": {
+      "direct_sites": 4,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 4
+    },
+    "LCAM_RotateTool": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "LCAM_ScaleTool": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "LCAM_SelectionCreationTool": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "LCAM_SelectionCreationTool_BaseState": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "LCAM_SelectionCreationTool_SpecifyingContourState": {
+      "direct_sites": 3,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 3
+    },
+    "LCAM_SelectionManager": {
+      "direct_sites": 33,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 33
+    },
+    "LCAM_SelectionTool": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "LCAM_ThreadedMotion3DSolver": {
+      "direct_sites": 5,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 5
+    },
+    "LCAM_ThreadedWorker": {
+      "direct_sites": 5,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 5
+    },
+    "LCAM_TranslateTool": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "LCAM_UnselectControlPointCommand": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "LayerControls": {
+      "direct_sites": 23,
+      "mapped_sites": 22,
+      "preserved_sites": 1,
+      "pending_sites": 0
+    },
+    "Layercam::BorisHost": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "Layercam::BorisInteractiveHost": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "Layercam::CommandManager": {
+      "direct_sites": 8,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 8
+    },
+    "Layercam::Contour": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "Layercam::HitFilm::CameraSolveExporter": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "Layercam::LayerGroup": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "Layercam::LensExporter": {
+      "direct_sites": 3,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 3
+    },
+    "Layercam::MagneticShapeTool": {
+      "direct_sites": 3,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 3
+    },
+    "Layercam::Motion3DSolverBase": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "Layercam::Motion3DSolverPTZ": {
+      "direct_sites": 3,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 3
+    },
+    "Layercam::Tool": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "Layercam::ToolState": {
+      "direct_sites": 38,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 38
+    },
+    "Layercam::TransformToolBase": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "LensExportCustomWidget": {
+      "direct_sites": 5,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 5
+    },
+    "LicenseException": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "Luthien": {
+      "direct_sites": 17,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 17
+    },
+    "MCPPage": {
+      "direct_sites": 45,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 45
+    },
+    "MagneticShapeToolUI": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "ManageLayoutsDialog": {
+      "direct_sites": 4,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 4
+    },
+    "MinimalUIWidget": {
+      "direct_sites": 19,
+      "mapped_sites": 19,
+      "preserved_sites": 0,
+      "pending_sites": 0
+    },
+    "NetworkRequestEx": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "NewClipDialog": {
+      "direct_sites": 7,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 7
+    },
+    "NewLayerCommand": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "NudgingHandler": {
+      "direct_sites": 8,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 8
+    },
+    "OpenEXRModule": {
+      "direct_sites": 7,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 7
+    },
+    "Parameter": {
+      "direct_sites": 57,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 57
+    },
+    "ParameterNotificationCommand": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "PasteContoursFromClipboardCommand": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "PasteLayersFromClipboardCommand": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "PasteMeshKeysFromClipboardCommand": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "PlatformInfo": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "PointColours": {
+      "direct_sites": 7,
+      "mapped_sites": 1,
+      "preserved_sites": 0,
+      "pending_sites": 6
+    },
+    "PreprocessingPanel": {
+      "direct_sites": 14,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 14
+    },
+    "PrmUpdaterImplBase": {
+      "direct_sites": 4,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 4
+    },
+    "Program": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "ProjectOpener": {
+      "direct_sites": 5,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 5
+    },
+    "ProjectSettingsDialog": {
+      "direct_sites": 10,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 10
+    },
+    "PushButtonParameterWidget": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "QAbstractSocket": {
+      "direct_sites": 16,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 16
+    },
+    "QAbstractSpinBox": {
+      "direct_sites": 3,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 3
+    },
+    "QAccessibleActionInterface": {
+      "direct_sites": 12,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 12
+    },
+    "QColorDialog": {
+      "direct_sites": 14,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 14
+    },
+    "QComboBox": {
+      "direct_sites": 3,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 3
+    },
+    "QCoreApplication": {
+      "direct_sites": 4,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 4
+    },
+    "QDialog": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "QDockWidget": {
+      "direct_sites": 4,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 4
+    },
+    "QFile": {
+      "direct_sites": 11,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 11
+    },
+    "QFileDialog": {
+      "direct_sites": 56,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 56
+    },
+    "QFileSystemModel": {
+      "direct_sites": 9,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 9
+    },
+    "QFontDatabase": {
+      "direct_sites": 22,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 22
+    },
+    "QFtp": {
+      "direct_sites": 7,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 7
+    },
+    "QGuiApplication": {
+      "direct_sites": 10,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 10
+    },
+    "QHostInfoAgent": {
+      "direct_sites": 3,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 3
+    },
+    "QHttp": {
+      "direct_sites": 13,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 13
+    },
+    "QHttpSocketEngine": {
+      "direct_sites": 9,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 9
+    },
+    "QIODevice": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "QImageReader": {
+      "direct_sites": 4,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 4
+    },
+    "QImageWriter": {
+      "direct_sites": 5,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 5
+    },
+    "QInputDialog": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "QJsonParseError": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "QLibrary": {
+      "direct_sites": 4,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 4
+    },
+    "QLineEdit": {
+      "direct_sites": 7,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 7
+    },
+    "QLocalSocket": {
+      "direct_sites": 6,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 6
+    },
+    "QMdiArea": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "QMdiSubWindow": {
+      "direct_sites": 12,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 12
+    },
+    "QMessageBox": {
+      "direct_sites": 5,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 5
+    },
+    "QNativeSocketEngine": {
+      "direct_sites": 29,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 29
+    },
+    "QNetworkAccessCacheBackend": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "QNetworkAccessDataBackend": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "QNetworkAccessFileBackend": {
+      "direct_sites": 8,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 8
+    },
+    "QNetworkAccessFtpBackend": {
+      "direct_sites": 3,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 3
+    },
+    "QNetworkReply": {
+      "direct_sites": 12,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 12
+    },
+    "QNetworkReplyHttpImpl": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "QNetworkReplyImpl": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "QNetworkSession": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "QObject": {
+      "direct_sites": 7,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 7
+    },
+    "QPlatformTheme": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "QProcess": {
+      "direct_sites": 12,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 12
+    },
+    "QProgressDialog": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "QSaveFile": {
+      "direct_sites": 3,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 3
+    },
+    "QScrollBar": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "QSharedMemory": {
+      "direct_sites": 16,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 16
+    },
+    "QShortcut": {
+      "direct_sites": 13,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 13
+    },
+    "QSocks5SocketEngine": {
+      "direct_sites": 16,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 16
+    },
+    "QSslSocket": {
+      "direct_sites": 72,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 72
+    },
+    "QStateMachine": {
+      "direct_sites": 5,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 5
+    },
+    "QSystemSemaphore": {
+      "direct_sites": 3,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 3
+    },
+    "QTabBar": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "QTcpServer": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "QUdpSocket": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "QUnicodeControlCharacterMenu": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "QWidget": {
+      "direct_sites": 4,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 4
+    },
+    "QWidgetTextControl": {
+      "direct_sites": 8,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 8
+    },
+    "QXmlStream": {
+      "direct_sites": 47,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 47
+    },
+    "RegistrationBase": {
+      "direct_sites": 14,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 14
+    },
+    "RegistrationModeRequestTrial": {
+      "direct_sites": 6,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 6
+    },
+    "RemoveEffectsClipCommand": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "RemoveMatteClipCommand": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "Render": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "RenderDialog": {
+      "direct_sites": 38,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 38
+    },
+    "Rendering": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "ReorientPage": {
+      "direct_sites": 34,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 34
+    },
+    "ReorientPrmUpdater": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "ResetParameterCommand": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "STMapExportCustomWidget": {
+      "direct_sites": 8,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 8
+    },
+    "SelectControlPointCommand": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "SelectVertex": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "SetBezierHandlesCommand": {
+      "direct_sites": 6,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 6
+    },
+    "SetContourTypeCommand": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "SetMesh": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "ShapeExportCustomWidget": {
+      "direct_sites": 5,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 5
+    },
+    "ShapeToolUI": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "ShortcutProfile": {
+      "direct_sites": 3,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 3
+    },
+    "SingleViewConfigurationRow": {
+      "direct_sites": 3,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 3
+    },
+    "SolverType": {
+      "direct_sites": 4,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 4
+    },
+    "SplitViewsBox": {
+      "direct_sites": 3,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 3
+    },
+    "SystemInfo": {
+      "direct_sites": 10,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 10
+    },
+    "TextureSet": {
+      "direct_sites": 5,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 5
+    },
+    "TextureSet::vRender": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "TimelineControls": {
+      "direct_sites": 42,
+      "mapped_sites": 42,
+      "preserved_sites": 0,
+      "pending_sites": 0
+    },
+    "TrackMeshToolUI": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "TrackingDataFormat": {
+      "direct_sites": 33,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 33
+    },
+    "TrackingExportCustomWidget": {
+      "direct_sites": 4,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 4
+    },
+    "TrackingExporterHelper": {
+      "direct_sites": 7,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 7
+    },
+    "UpdateMagneticContourCommand": {
+      "direct_sites": 2,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 2
+    },
+    "UsageLogger": {
+      "direct_sites": 5,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 5
+    },
+    "ViewControls": {
+      "direct_sites": 115,
+      "mapped_sites": 91,
+      "preserved_sites": 24,
+      "pending_sites": 0
+    },
+    "ViewManager": {
+      "direct_sites": 9,
+      "mapped_sites": 2,
+      "preserved_sites": 0,
+      "pending_sites": 7
+    },
+    "ViewsConfigurationPanel": {
+      "direct_sites": 8,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 8
+    },
+    "WelcomeScreen": {
+      "direct_sites": 15,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 15
+    },
+    "XmlBuilderShape": {
+      "direct_sites": 4,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 4
+    },
+    "computeVertices": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "determinePolygonSize": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "dlgProjectMergeGroupIdConflict": {
+      "direct_sites": 6,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 6
+    },
+    "dopeSheet": {
+      "direct_sites": 13,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 13
+    },
+    "frmAdjustTrackClassic": {
+      "direct_sites": 78,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 78
+    },
+    "frmAdjustTrackPage": {
+      "direct_sites": 4,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 4
+    },
+    "frmAdjustTrackTransform": {
+      "direct_sites": 80,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 80
+    },
+    "frmChangeClipSettings": {
+      "direct_sites": 15,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 15
+    },
+    "frmChangeDefaultOutputDirectory": {
+      "direct_sites": 9,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 9
+    },
+    "frmClipPage": {
+      "direct_sites": 82,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 82
+    },
+    "frmCloseProject": {
+      "direct_sites": 14,
+      "mapped_sites": 13,
+      "preserved_sites": 1,
+      "pending_sites": 0
+    },
+    "frmCurveEditor": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "frmEdgeProperties": {
+      "direct_sites": 23,
+      "mapped_sites": 19,
+      "preserved_sites": 4,
+      "pending_sites": 0
+    },
+    "frmExportLensData": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "frmExportShapeData": {
+      "direct_sites": 3,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 3
+    },
+    "frmExportTrackingData": {
+      "direct_sites": 5,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 5
+    },
+    "frmInsertPage": {
+      "direct_sites": 111,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 111
+    },
+    "frmKeyframeControls": {
+      "direct_sites": 5,
+      "mapped_sites": 1,
+      "preserved_sites": 0,
+      "pending_sites": 4
+    },
+    "frmLayerProperties": {
+      "direct_sites": 29,
+      "mapped_sites": 29,
+      "preserved_sites": 0,
+      "pending_sites": 0
+    },
+    "frmLensPage": {
+      "direct_sites": 112,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 112
+    },
+    "frmMain": {
+      "direct_sites": 386,
+      "mapped_sites": 314,
+      "preserved_sites": 72,
+      "pending_sites": 0
+    },
+    "frmMainGLWidget": {
+      "direct_sites": 51,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 51
+    },
+    "frmPreferences": {
+      "direct_sites": 179,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 179
+    },
+    "frmProjectNotes": {
+      "direct_sites": 1,
+      "mapped_sites": 1,
+      "preserved_sites": 0,
+      "pending_sites": 0
+    },
+    "frmRegister": {
+      "direct_sites": 27,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 27
+    },
+    "frmRemovePage": {
+      "direct_sites": 48,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 48
+    },
+    "frmReportError": {
+      "direct_sites": 14,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 14
+    },
+    "frmSoftwareUpdate": {
+      "direct_sites": 24,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 24
+    },
+    "frmSparseClip": {
+      "direct_sites": 14,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 14
+    },
+    "frmStabilizePage": {
+      "direct_sites": 83,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 83
+    },
+    "frmTrackPage": {
+      "direct_sites": 100,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 100
+    },
+    "frmViewerPreferences": {
+      "direct_sites": 8,
+      "mapped_sites": 1,
+      "preserved_sites": 0,
+      "pending_sites": 7
+    },
+    "isi_imageio": {
+      "direct_sites": 1,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 1
+    },
+    "unresolved_context": {
+      "direct_sites": 101,
+      "mapped_sites": 0,
+      "preserved_sites": 0,
+      "pending_sites": 101
+    }
+  },
+  "runtime_validation": "pending",
+  "all_ui_translated": false,
+  "notes": [
+    "The 3615 direct sites are not a runtime menu inventory.",
+    "Two statically traced translation sinks only; dynamic or other string construction paths remain outside extraction.",
+    "Old 24-string DLL retained until isolated deployment with hash-checked backup.",
+    "No claim of tracking/render/host round-trip parity from syntax or byte checks."
+  ]
+}

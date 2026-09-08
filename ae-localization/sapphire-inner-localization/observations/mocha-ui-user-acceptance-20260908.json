@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-08",
+  "status": "observed_passed",
+  "evidence_type": "user_report",
+  "user_statement": "已经完全汉化了，剩下的对使用没有影响",
+  "scope": "User's actual Light3D and embedded Mocha usage with the context-menu expansion",
+  "mocha_ui_sha256": "9141D09D02DD2E303E2BDB6F5BAB21844A441201562A5CE85790489FD0020030",
+  "core_sha256": "410C69A61BEC964322550ECC8662D60E454C1984175E2850B4244B02C31A7B91",
+  "all_binary_strings_translated": false,
+  "all_feature_paths_automatically_tested": false,
+  "canonical_entry_replacement": "separate deployment; post-replacement runtime test pending"
+}

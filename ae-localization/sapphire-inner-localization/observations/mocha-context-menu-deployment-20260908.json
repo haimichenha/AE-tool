@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-08T01:08:51.6597740Z",
+  "target": "D:\\tmp\\saprt\\l3dao\\lib64\\BorisFX.Sapphire.mocha.em64t\\mocha4bcc.dll",
+  "backup": "D:\\tmp\\saprt\\l3dao\\lib64\\BorisFX.Sapphire.mocha.em64t\\mocha4bcc.dll.before-context-menu-20260908",
+  "before_sha256": "F5B853EFBEA11AAFB1FBD0226275301CD3758F21FA8A9FC25AA4BB3C0EF50FD1",
+  "after_sha256": "9141D09D02DD2E303E2BDB6F5BAB21844A441201562A5CE85790489FD0020030",
+  "original_unchanged": true,
+  "runtime_validation": "pending",
+  "all_ui_translated": false,
+  "changed_artifact": "isolated Mocha UI only"
+}

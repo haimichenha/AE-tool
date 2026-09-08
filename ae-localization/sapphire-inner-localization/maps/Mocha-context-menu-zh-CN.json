@@ -1,0 +1,3075 @@
+{
+  "schema": 1,
+  "source_sha256": "969E1724C74FB4A661043E626FE92E8C29F062038C8D1BF647C99051F23DC029",
+  "scope_contexts": [
+    "GUI::LayerControls",
+    "GUI::LayoutManager",
+    "KeyPreferences",
+    "LayerControls",
+    "MinimalUIWidget",
+    "TimelineControls",
+    "ViewControls",
+    "frmCloseProject",
+    "frmEdgeProperties",
+    "frmLayerProperties",
+    "frmMain"
+  ],
+  "translations": [
+    {
+      "context": "frmMain",
+      "source": "General",
+      "translation": "常规"
+    },
+    {
+      "context": "frmMain",
+      "source": "On/off points",
+      "translation": "启用／禁用控制点"
+    },
+    {
+      "context": "frmMain",
+      "source": "Merge projects is available in Mocha Pro only!",
+      "translation": "合并项目仅在 Mocha Pro 中可用！"
+    },
+    {
+      "context": "frmMain",
+      "source": "Feature is unavailable - %1",
+      "translation": "功能不可用 — %1"
+    },
+    {
+      "context": "frmMain",
+      "source": "User Guide",
+      "translation": "用户指南"
+    },
+    {
+      "context": "frmMain",
+      "source": "Release Notes",
+      "translation": "版本说明"
+    },
+    {
+      "context": "frmMain",
+      "source": "Auto recover project - %1",
+      "translation": "自动恢复项目 — %1"
+    },
+    {
+      "context": "frmMain",
+      "source": "Would you like to open your last project?",
+      "translation": "是否打开上次的项目？"
+    },
+    {
+      "context": "frmMain",
+      "source": "Bezier splines are not supported for 360 video",
+      "translation": "360 度视频不支持贝塞尔样条"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Help",
+      "translation": "帮助(&H)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Dope Sheet",
+      "translation": "关键帧表"
+    },
+    {
+      "context": "frmMain",
+      "source": "Menus",
+      "translation": "菜单"
+    },
+    {
+      "context": "frmMain",
+      "source": "Marquee Selection",
+      "translation": "框选"
+    },
+    {
+      "context": "frmMain",
+      "source": "Lasso Selection",
+      "translation": "套索选择"
+    },
+    {
+      "context": "frmMain",
+      "source": "Track/Render",
+      "translation": "跟踪／渲染"
+    },
+    {
+      "context": "frmMain",
+      "source": "Track/Rendering",
+      "translation": "跟踪／渲染"
+    },
+    {
+      "context": "frmMain",
+      "source": "%1 Current Frame",
+      "translation": "%1当前帧"
+    },
+    {
+      "context": "frmMain",
+      "source": "%1 Forwards",
+      "translation": "向前%1"
+    },
+    {
+      "context": "frmMain",
+      "source": "%1 Backwards",
+      "translation": "向后%1"
+    },
+    {
+      "context": "frmMain",
+      "source": "%1 To Next Frame",
+      "translation": "%1至下一帧"
+    },
+    {
+      "context": "frmMain",
+      "source": "%1 To Previous Frame",
+      "translation": "%1至上一帧"
+    },
+    {
+      "context": "frmMain",
+      "source": "Stop %1",
+      "translation": "停止%1"
+    },
+    {
+      "context": "frmMain",
+      "source": "%1 all views",
+      "translation": "%1全部视图"
+    },
+    {
+      "context": "frmMain",
+      "source": "Undo %1 in &Current Frame",
+      "translation": "撤销当前帧的%1(&C)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Undo %1 in &All Frames",
+      "translation": "撤销所有帧的%1(&A)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Status",
+      "translation": "状态"
+    },
+    {
+      "context": "frmMain",
+      "source": "Autosave: ",
+      "translation": "自动保存："
+    },
+    {
+      "context": "frmMain",
+      "source": "WARNING! Confirm Encryption - %1",
+      "translation": "警告！确认加密 — %1"
+    },
+    {
+      "context": "frmMain",
+      "source": "Do you want to permanently encrypt %1?",
+      "translation": "是否永久加密 %1？"
+    },
+    {
+      "context": "frmMain",
+      "source": "Confirm Version Upgrade - %1",
+      "translation": "确认版本升级 — %1"
+    },
+    {
+      "context": "frmMain",
+      "source": "Parameters",
+      "translation": "参数"
+    },
+    {
+      "context": "frmMain",
+      "source": "Nudging",
+      "translation": "微调"
+    },
+    {
+      "context": "frmMain",
+      "source": "%2, %1 pixel(s)",
+      "translation": "%2，%1 像素"
+    },
+    {
+      "context": "frmMain",
+      "source": "License changed - %1",
+      "translation": "许可证已变更 — %1"
+    },
+    {
+      "context": "frmMain",
+      "source": "Are you sure?\nAll settings (except the Developer Menu) will be cleared",
+      "translation": "是否确定？\n所有设置（开发者菜单除外）都将被清除"
+    },
+    {
+      "context": "frmMain",
+      "source": "Clearing All Settings!",
+      "translation": "清除所有设置！"
+    },
+    {
+      "context": "frmMain",
+      "source": "Recent &Files...",
+      "translation": "最近的文件...(&F)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Licensing error: heartbeat failure",
+      "translation": "许可错误：心跳检测失败"
+    },
+    {
+      "context": "frmMain",
+      "source": "Nudge points",
+      "translation": "微调控制点"
+    },
+    {
+      "context": "frmMain",
+      "source": "Python Guide",
+      "translation": "Python 指南"
+    },
+    {
+      "context": "frmMain",
+      "source": "%1 Converted - %2",
+      "translation": "%1 已转换 — %2"
+    },
+    {
+      "context": "frmMain",
+      "source": "You have recovered an autosaved project.\n",
+      "translation": "已恢复一个自动保存的项目。\n"
+    },
+    {
+      "context": "frmMain",
+      "source": "Autosave Project Loaded - %1",
+      "translation": "已加载自动保存项目 — %1"
+    },
+    {
+      "context": "frmMain",
+      "source": "New",
+      "translation": "新建"
+    },
+    {
+      "context": "frmMain",
+      "source": "Choose a project file",
+      "translation": "选择项目文件"
+    },
+    {
+      "context": "frmMain",
+      "source": "&New Project...",
+      "translation": "新建项目...(&N)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Create a new project",
+      "translation": "创建新项目"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Open Project...",
+      "translation": "打开项目...(&O)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Open a project",
+      "translation": "打开项目"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Undo",
+      "translation": "撤销(&U)"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Redo",
+      "translation": "重做(&R)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Render Current Frame",
+      "translation": "渲染当前帧"
+    },
+    {
+      "context": "frmMain",
+      "source": "Render Forwards",
+      "translation": "向前渲染"
+    },
+    {
+      "context": "frmMain",
+      "source": "Render Backwards",
+      "translation": "向后渲染"
+    },
+    {
+      "context": "frmMain",
+      "source": "Render to Next Frame",
+      "translation": "渲染至下一帧"
+    },
+    {
+      "context": "frmMain",
+      "source": "Render to Previous Frame",
+      "translation": "渲染至上一帧"
+    },
+    {
+      "context": "frmMain",
+      "source": "Stop Rendering",
+      "translation": "停止渲染"
+    },
+    {
+      "context": "frmMain",
+      "source": "Toggle Render on Parameter Change",
+      "translation": "切换参数更改时自动渲染"
+    },
+    {
+      "context": "frmMain",
+      "source": "Undo Render in Cu&rrent Frame",
+      "translation": "撤销当前帧渲染(&R)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Undo Render in &All Frames",
+      "translation": "撤销所有帧渲染(&A)"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Save Project",
+      "translation": "保存项目(&S)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Save the project",
+      "translation": "保存项目"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Preferences...",
+      "translation": "首选项...(&P)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Allows you to change application preferences",
+      "translation": "更改应用程序首选项"
+    },
+    {
+      "context": "frmMain",
+      "source": "Export &Rendered Clip...",
+      "translation": "导出渲染素材...(&R)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Save a rendered clip",
+      "translation": "保存渲染后的素材"
+    },
+    {
+      "context": "frmMain",
+      "source": "Save Project &As...",
+      "translation": "项目另存为...(&A)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Specify a project file and save the project",
+      "translation": "指定文件并保存项目"
+    },
+    {
+      "context": "frmMain",
+      "source": "Close Projec&t...",
+      "translation": "关闭项目...(&T)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Close the project",
+      "translation": "关闭项目"
+    },
+    {
+      "context": "frmMain",
+      "source": "E&xit",
+      "translation": "退出(&X)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Closes the application",
+      "translation": "关闭应用程序"
+    },
+    {
+      "context": "frmMain",
+      "source": "Finish &closed Spline",
+      "translation": "完成闭合样条(&C)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Finish the spline being edited as closed",
+      "translation": "将正在编辑的样条作为闭合样条完成"
+    },
+    {
+      "context": "frmMain",
+      "source": "Finish &open Spline",
+      "translation": "完成开放样条(&O)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Finish the spline being edited as open",
+      "translation": "将正在编辑的样条作为开放样条完成"
+    },
+    {
+      "context": "frmMain",
+      "source": "Toggle Acti&ve Selected Points",
+      "translation": "切换选中控制点的启用状态(&V)"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Select All",
+      "translation": "全选(&S)"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Next Control Point",
+      "translation": "下一个控制点(&N)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Step to the Next Control Point",
+      "translation": "切换至下一个控制点"
+    },
+    {
+      "context": "frmMain",
+      "source": "Pre&vious Control Point",
+      "translation": "上一个控制点(&V)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Step to the Previous Control Point",
+      "translation": "切换至上一个控制点"
+    },
+    {
+      "context": "frmMain",
+      "source": "O&nline Help",
+      "translation": "在线帮助(&N)"
+    },
+    {
+      "context": "frmMain",
+      "source": "View Online Help (Internet connection required)",
+      "translation": "查看在线帮助（需要互联网连接）"
+    },
+    {
+      "context": "frmMain",
+      "source": "Offline &Help",
+      "translation": "离线帮助(&H)"
+    },
+    {
+      "context": "frmMain",
+      "source": "View Offline Help",
+      "translation": "查看离线帮助"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Release Notes",
+      "translation": "版本说明(&R)"
+    },
+    {
+      "context": "frmMain",
+      "source": "View release notes for this version",
+      "translation": "查看当前版本说明"
+    },
+    {
+      "context": "frmMain",
+      "source": "Online &Python Docs",
+      "translation": "在线 Python 文档(&P)"
+    },
+    {
+      "context": "frmMain",
+      "source": "View Online Python Docs",
+      "translation": "查看在线 Python 文档"
+    },
+    {
+      "context": "frmMain",
+      "source": "Offline P&ython Guide",
+      "translation": "离线 Python 指南(&Y)"
+    },
+    {
+      "context": "frmMain",
+      "source": "View Offline Python Guide",
+      "translation": "查看离线 Python 指南"
+    },
+    {
+      "context": "frmMain",
+      "source": "Show &Welcome Screen...",
+      "translation": "显示欢迎界面...(&W)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Show Welcome Screen...",
+      "translation": "显示欢迎界面..."
+    },
+    {
+      "context": "frmMain",
+      "source": "&About...",
+      "translation": "关于...(&A)"
+    },
+    {
+      "context": "frmMain",
+      "source": "About...",
+      "translation": "关于..."
+    },
+    {
+      "context": "frmMain",
+      "source": "Next Frame",
+      "translation": "下一帧"
+    },
+    {
+      "context": "frmMain",
+      "source": "Next Keyframe",
+      "translation": "下一个关键帧"
+    },
+    {
+      "context": "frmMain",
+      "source": "Previous Frame",
+      "translation": "上一帧"
+    },
+    {
+      "context": "frmMain",
+      "source": "Previous Keyframe",
+      "translation": "上一个关键帧"
+    },
+    {
+      "context": "frmMain",
+      "source": "First Frame",
+      "translation": "首帧"
+    },
+    {
+      "context": "frmMain",
+      "source": "Last Frame",
+      "translation": "末帧"
+    },
+    {
+      "context": "frmMain",
+      "source": "Play Forwards",
+      "translation": "正向播放"
+    },
+    {
+      "context": "frmMain",
+      "source": "Play Backwards",
+      "translation": "反向播放"
+    },
+    {
+      "context": "frmMain",
+      "source": "Stop",
+      "translation": "停止"
+    },
+    {
+      "context": "frmMain",
+      "source": "Stop Playback",
+      "translation": "停止播放"
+    },
+    {
+      "context": "frmMain",
+      "source": "Set In Point",
+      "translation": "设置入点"
+    },
+    {
+      "context": "frmMain",
+      "source": "Set Out Point",
+      "translation": "设置出点"
+    },
+    {
+      "context": "frmMain",
+      "source": "Reset In Point",
+      "translation": "重置入点"
+    },
+    {
+      "context": "frmMain",
+      "source": "Reset Out Point",
+      "translation": "重置出点"
+    },
+    {
+      "context": "frmMain",
+      "source": "Zoom to In/Out Points",
+      "translation": "缩放至入点／出点范围"
+    },
+    {
+      "context": "frmMain",
+      "source": "Zoom to Full Frame Range",
+      "translation": "缩放至全部帧范围"
+    },
+    {
+      "context": "frmMain",
+      "source": "Zoom &100%",
+      "translation": "缩放至 100%(&1)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Zoom to &Fit",
+      "translation": "缩放以适应窗口(&F)"
+    },
+    {
+      "context": "frmMain",
+      "source": "%1 &Online",
+      "translation": "%1 在线网站(&O)"
+    },
+    {
+      "context": "frmMain",
+      "source": "View &Log",
+      "translation": "查看日志(&L)"
+    },
+    {
+      "context": "frmMain",
+      "source": "View Log of Events",
+      "translation": "查看事件日志"
+    },
+    {
+      "context": "frmMain",
+      "source": "Hide All Controls",
+      "translation": "隐藏全部控件"
+    },
+    {
+      "context": "frmMain",
+      "source": "Report an &Error...",
+      "translation": "报告错误...(&E)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Regis&ter...",
+      "translation": "注册...(&T)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Request &Trial...",
+      "translation": "申请试用...(&T)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Canvas Color...",
+      "translation": "画布颜色..."
+    },
+    {
+      "context": "frmMain",
+      "source": "Export Trac&king Data...",
+      "translation": "导出跟踪数据...(&K)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Export Offset Tra&cking Data...",
+      "translation": "导出偏移跟踪数据...(&C)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Export &Lens Data...",
+      "translation": "导出镜头数据...(&L)"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Video Tutorials",
+      "translation": "视频教程(&V)"
+    },
+    {
+      "context": "frmMain",
+      "source": "View &Forums",
+      "translation": "访问论坛(&F)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Export S&hape Data...",
+      "translation": "导出形状数据...(&H)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Export R&endered Shapes...",
+      "translation": "导出渲染形状...(&E)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Viewer Preferences",
+      "translation": "查看器首选项"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Merge Project...",
+      "translation": "合并项目...(&M)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Merge another project into the current",
+      "translation": "将其他项目合并到当前项目"
+    },
+    {
+      "context": "frmMain",
+      "source": "Pro&ject settings...",
+      "translation": "项目设置...(&J)"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Customize...",
+      "translation": "自定义...(&C)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Rename Current Layout...",
+      "translation": "重命名当前布局..."
+    },
+    {
+      "context": "frmMain",
+      "source": "All Controls Visible",
+      "translation": "显示全部控件"
+    },
+    {
+      "context": "frmMain",
+      "source": "All Controls Hidden",
+      "translation": "隐藏全部控件"
+    },
+    {
+      "context": "frmMain",
+      "source": "Default",
+      "translation": "默认"
+    },
+    {
+      "context": "frmMain",
+      "source": "Lock Layout",
+      "translation": "锁定布局"
+    },
+    {
+      "context": "frmMain",
+      "source": "Playback mode",
+      "translation": "播放模式"
+    },
+    {
+      "context": "frmMain",
+      "source": "Change playback mode",
+      "translation": "更改播放模式"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Picker",
+      "translation": "选择器(&P)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Pick Tool",
+      "translation": "选择工具"
+    },
+    {
+      "context": "frmMain",
+      "source": "Manipulate a layer",
+      "translation": "操作图层"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Insert Points",
+      "translation": "插入控制点(&I)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Point insertion tool",
+      "translation": "控制点插入工具"
+    },
+    {
+      "context": "frmMain",
+      "source": "Insert points on a layer",
+      "translation": "在图层上插入控制点"
+    },
+    {
+      "context": "frmMain",
+      "source": "Zoo&m",
+      "translation": "缩放(&M)"
+    },
+    {
+      "context": "frmMain",
+      "source": "P&an",
+      "translation": "平移视图(&A)"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Rotate",
+      "translation": "旋转(&R)"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Scale",
+      "translation": "缩放(&S)"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Translate",
+      "translation": "平移(&T)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Edit Track Mesh",
+      "translation": "编辑跟踪网格"
+    },
+    {
+      "context": "frmMain",
+      "source": "Edit the Track Mesh",
+      "translation": "编辑跟踪网格"
+    },
+    {
+      "context": "frmMain",
+      "source": "Create &X-spline Layer",
+      "translation": "创建 X 样条图层(&X)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Create X-Spline Layer Tool",
+      "translation": "创建 X 样条图层工具"
+    },
+    {
+      "context": "frmMain",
+      "source": "Select a new X-spline layer",
+      "translation": "选择新建的 X 样条图层"
+    },
+    {
+      "context": "frmMain",
+      "source": "Add X&-spline",
+      "translation": "添加 X 样条(&-)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Add X-spline To Layer",
+      "translation": "向图层添加 X 样条"
+    },
+    {
+      "context": "frmMain",
+      "source": "Create &Bezier Layer",
+      "translation": "创建贝塞尔图层(&B)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Create Bezier Layer Tool",
+      "translation": "创建贝塞尔图层工具"
+    },
+    {
+      "context": "frmMain",
+      "source": "Select a new Bezier layer",
+      "translation": "选择新建的贝塞尔图层"
+    },
+    {
+      "context": "frmMain",
+      "source": "Add Be&zier Spline",
+      "translation": "添加贝塞尔样条(&Z)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Add Bezier Spline To Layer",
+      "translation": "向图层添加贝塞尔样条"
+    },
+    {
+      "context": "frmMain",
+      "source": "Attac&h Layers",
+      "translation": "关联图层(&H)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Attach one layer to another",
+      "translation": "将一个图层关联至另一个图层"
+    },
+    {
+      "context": "frmMain",
+      "source": "Loc&k Tangents Mode",
+      "translation": "锁定切线模式(&K)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Switch lock tangents on/off",
+      "translation": "开启／关闭切线锁定"
+    },
+    {
+      "context": "frmMain",
+      "source": "Render All Views",
+      "translation": "渲染全部视图"
+    },
+    {
+      "context": "frmMain",
+      "source": "Close Selected Spline(s&)",
+      "translation": "闭合选中样条(&))"
+    },
+    {
+      "context": "frmMain",
+      "source": "Close all selected splines or the spline being created (if any)",
+      "translation": "闭合所有选中样条或当前正在创建的样条"
+    },
+    {
+      "context": "frmMain",
+      "source": "Open Selected Spline&(s)",
+      "translation": "打开选中样条(&()"
+    },
+    {
+      "context": "frmMain",
+      "source": "Open all selected splines or the spline being created (if any)",
+      "translation": "打开所有选中样条或当前正在创建的样条"
+    },
+    {
+      "context": "frmMain",
+      "source": "Clear cache..&.",
+      "translation": "清除缓存...(&.)"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Copy",
+      "translation": "复制(&C)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Contextual copy action depends on selected widget",
+      "translation": "根据选中的控件执行复制"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Paste",
+      "translation": "粘贴(&P)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Contextual paste action depends on selected widget",
+      "translation": "根据选中的控件执行粘贴"
+    },
+    {
+      "context": "frmMain",
+      "source": "Paste &Mesh Keys",
+      "translation": "粘贴网格关键帧(&M)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Paste mesh key frames for selected points offset at current frame",
+      "translation": "以当前帧为偏移基准，粘贴选中控制点的网格关键帧"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Delete",
+      "translation": "删除(&D)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Contextual delete action depending on current focus",
+      "translation": "根据当前焦点执行删除"
+    },
+    {
+      "context": "frmMain",
+      "source": "Licensin&g...",
+      "translation": "许可证管理...(&G)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Manage the license",
+      "translation": "管理许可证"
+    },
+    {
+      "context": "frmMain",
+      "source": "Activate/deactivate nodelocked license...",
+      "translation": "激活／停用节点锁定许可证..."
+    },
+    {
+      "context": "frmMain",
+      "source": "Align sur&face",
+      "translation": "对齐表面(&F)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Expand the planar surface(s) of selected layers to fill the entire frame",
+      "translation": "将选中图层的平面表面扩展至整个画面"
+    },
+    {
+      "context": "frmMain",
+      "source": "Create new &Magnetic Layer",
+      "translation": "新建磁性图层(&M)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Create new magnetic layer",
+      "translation": "新建磁性图层"
+    },
+    {
+      "context": "frmMain",
+      "source": "Add M&agnetic shape to layer",
+      "translation": "向图层添加磁性形状(&A)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Add magnetic shape to selected layer",
+      "translation": "向选中图层添加磁性形状"
+    },
+    {
+      "context": "frmMain",
+      "source": "Create new &Freehand Layer",
+      "translation": "新建自由绘制图层(&F)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Create new freehand layer",
+      "translation": "新建自由绘制图层"
+    },
+    {
+      "context": "frmMain",
+      "source": "Add F&reehand shape to layer",
+      "translation": "向图层添加自由绘制形状(&R)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Add freehand layer to selected layer",
+      "translation": "向选中图层添加自由绘制形状"
+    },
+    {
+      "context": "frmMain",
+      "source": "Create new Rectangular &X-Spline Layer",
+      "translation": "新建矩形 X 样条图层(&X)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Create Rectangular X-Spline Layer",
+      "translation": "创建矩形 X 样条图层"
+    },
+    {
+      "context": "frmMain",
+      "source": "Create new Elliptical &X-Spline Layer",
+      "translation": "新建椭圆 X 样条图层(&X)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Create Elliptical X-Spline Layer",
+      "translation": "创建椭圆 X 样条图层"
+    },
+    {
+      "context": "frmMain",
+      "source": "Add Rectangular X-&Spline Shape to layer",
+      "translation": "向图层添加矩形 X 样条形状(&S)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Add Rectangular X-Spline",
+      "translation": "添加矩形 X 样条"
+    },
+    {
+      "context": "frmMain",
+      "source": "Add Elliptical X-&Spline shape to layer",
+      "translation": "向图层添加椭圆 X 样条形状(&S)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Add Elliptical X-Spline",
+      "translation": "添加椭圆 X 样条"
+    },
+    {
+      "context": "frmMain",
+      "source": "Create new Rectangular &Bezier Layer",
+      "translation": "新建矩形贝塞尔图层(&B)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Create Rectangular Bezier Layer",
+      "translation": "创建矩形贝塞尔图层"
+    },
+    {
+      "context": "frmMain",
+      "source": "Create new Elliptical &Bezier Layer",
+      "translation": "新建椭圆贝塞尔图层(&B)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Create Elliptical Bezier Layer",
+      "translation": "创建椭圆贝塞尔图层"
+    },
+    {
+      "context": "frmMain",
+      "source": "Add Rectangular B&ezier Shape to layer",
+      "translation": "向图层添加矩形贝塞尔形状(&E)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Add Rectangular Bezier Spline",
+      "translation": "添加矩形贝塞尔样条"
+    },
+    {
+      "context": "frmMain",
+      "source": "Add Elliptical B&ezier shape to layer",
+      "translation": "向图层添加椭圆贝塞尔形状(&E)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Add Elliptical Bezier Spline",
+      "translation": "添加椭圆贝塞尔样条"
+    },
+    {
+      "context": "frmMain",
+      "source": "Snap Sel&ected Points",
+      "translation": "吸附选中控制点(&E)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Drag-Snap Selecte&d Points",
+      "translation": "拖动吸附选中控制点(&D)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Create New &Area Brush Layer",
+      "translation": "新建区域画笔图层(&A)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Add Area &Brush to Layer",
+      "translation": "向图层添加区域画笔(&B)"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Decrease Area Brush Radius",
+      "translation": "减小区域画笔半径(&D)"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Increase Area Brush Radius",
+      "translation": "增大区域画笔半径(&I)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Zoom &In",
+      "translation": "放大(&I)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Zoom &Out",
+      "translation": "缩小(&O)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Pick B&oth",
+      "translation": "同时选择(&O)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Move inner and edge points together",
+      "translation": "同时移动内部点和边缘点"
+    },
+    {
+      "context": "frmMain",
+      "source": "Pick Ed&ge",
+      "translation": "选择边缘点(&G)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Move edge points",
+      "translation": "移动边缘点"
+    },
+    {
+      "context": "frmMain",
+      "source": "Pick I&nner",
+      "translation": "选择内部点(&N)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Move inner points",
+      "translation": "移动内部点"
+    },
+    {
+      "context": "frmMain",
+      "source": "Pick An&y",
+      "translation": "自由选择(&Y)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Move inner and edge points independently",
+      "translation": "独立移动内部点和边缘点"
+    },
+    {
+      "context": "frmMain",
+      "source": "File",
+      "translation": "文件"
+    },
+    {
+      "context": "frmMain",
+      "source": "Undo/Redo",
+      "translation": "撤销／重做"
+    },
+    {
+      "context": "frmMain",
+      "source": "Advanced tools",
+      "translation": "高级工具"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Edit",
+      "translation": "编辑(&E)"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Render",
+      "translation": "渲染(&R)"
+    },
+    {
+      "context": "frmMain",
+      "source": "&View",
+      "translation": "视图(&V)"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Zoom",
+      "translation": "缩放(&Z)"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Movie",
+      "translation": "影片(&M)"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Tools",
+      "translation": "工具(&T)"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Magnetic Tool",
+      "translation": "磁性工具(&M)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Re&ctangular Layer",
+      "translation": "矩形图层(&C)"
+    },
+    {
+      "context": "frmMain",
+      "source": "E&lliptical Layer",
+      "translation": "椭圆图层(&L)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Area Br&ush",
+      "translation": "区域画笔(&U)"
+    },
+    {
+      "context": "frmMain",
+      "source": "&File",
+      "translation": "文件(&F)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ke&yboard",
+      "translation": "键盘(&Y)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Basic tools",
+      "translation": "基本工具"
+    },
+    {
+      "context": "frmMain",
+      "source": "Tool Parameters",
+      "translation": "工具参数"
+    },
+    {
+      "context": "frmMain",
+      "source": "Saving project...",
+      "translation": "正在保存项目..."
+    },
+    {
+      "context": "frmMain",
+      "source": "Creating backup...",
+      "translation": "正在创建备份..."
+    },
+    {
+      "context": "frmMain",
+      "source": "Curve Editor",
+      "translation": "曲线编辑器"
+    },
+    {
+      "context": "frmMain",
+      "source": "Export Project...",
+      "translation": "导出项目..."
+    },
+    {
+      "context": "frmMain",
+      "source": "Export the project to a file",
+      "translation": "将项目导出到文件"
+    },
+    {
+      "context": "frmMain",
+      "source": "Modules",
+      "translation": "模块"
+    },
+    {
+      "context": "frmMain",
+      "source": "&Parameters",
+      "translation": "参数(&P)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Panels",
+      "translation": "面板"
+    },
+    {
+      "context": "frmMain",
+      "source": "Toolbars",
+      "translation": "工具栏"
+    },
+    {
+      "context": "frmMain",
+      "source": "Neither the online nor offline manuals could be opened.",
+      "translation": "无法打开在线或离线手册。"
+    },
+    {
+      "context": "frmMain",
+      "source": "Documentation could not be displayed - %1",
+      "translation": "无法显示文档 — %1"
+    },
+    {
+      "context": "frmMain",
+      "source": "Deactivate nodeloc&ked license...",
+      "translation": "停用节点锁定许可证...(&K)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Launch licensing tool to deactivate the license",
+      "translation": "启动许可工具以停用许可证"
+    },
+    {
+      "context": "frmMain",
+      "source": "Activate nodeloc&ked license...",
+      "translation": "激活节点锁定许可证...(&K)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Launch licensing tool to activate a license",
+      "translation": "启动许可工具以激活许可证"
+    },
+    {
+      "context": "frmMain",
+      "source": "New Project",
+      "translation": "新建项目"
+    },
+    {
+      "context": "frmMain",
+      "source": "The %1 could not be found",
+      "translation": "找不到 %1"
+    },
+    {
+      "context": "frmMain",
+      "source": "Installation Error - %1",
+      "translation": "安装错误 — %1"
+    },
+    {
+      "context": "frmMain",
+      "source": "an earlier version",
+      "translation": "较早版本"
+    },
+    {
+      "context": "frmMain",
+      "source": "Not licensed - %1",
+      "translation": "未获授权 — %1"
+    },
+    {
+      "context": "frmMain",
+      "source": "NOT FOR COMMERCIAL USE",
+      "translation": "不可用于商业用途"
+    },
+    {
+      "context": "frmMain",
+      "source": "Unlicensed",
+      "translation": "未获授权"
+    },
+    {
+      "context": "frmMain",
+      "source": "Learning Edition",
+      "translation": "学习版"
+    },
+    {
+      "context": "GUI::LayerControls",
+      "source": "Reset layer surface",
+      "translation": "重置图层表面"
+    },
+    {
+      "context": "GUI::LayerControls",
+      "source": "Group selected layers",
+      "translation": "将选中图层编组"
+    },
+    {
+      "context": "GUI::LayerControls",
+      "source": "Reparent layers",
+      "translation": "更改图层父级"
+    },
+    {
+      "context": "GUI::LayerControls",
+      "source": "Locked",
+      "translation": "锁定"
+    },
+    {
+      "context": "GUI::LayerControls",
+      "source": "Visible",
+      "translation": "可见"
+    },
+    {
+      "context": "LayerControls",
+      "source": "Layers",
+      "translation": "图层"
+    },
+    {
+      "context": "LayerControls",
+      "source": "Duplicate",
+      "translation": "复制副本"
+    },
+    {
+      "context": "LayerControls",
+      "source": "Duplicate selected layers and all their keyframes",
+      "translation": "复制选中图层及其全部关键帧"
+    },
+    {
+      "context": "LayerControls",
+      "source": "Select All",
+      "translation": "全选"
+    },
+    {
+      "context": "LayerControls",
+      "source": "Select Group",
+      "translation": "选择组"
+    },
+    {
+      "context": "LayerControls",
+      "source": "Invert Selection",
+      "translation": "反选"
+    },
+    {
+      "context": "LayerControls",
+      "source": "Delete Selected",
+      "translation": "删除选中项"
+    },
+    {
+      "context": "LayerControls",
+      "source": "Lock/Unlock Selected",
+      "translation": "锁定／解锁选中项"
+    },
+    {
+      "context": "LayerControls",
+      "source": "Lock/Unlock All",
+      "translation": "锁定／解锁全部"
+    },
+    {
+      "context": "LayerControls",
+      "source": "New Group",
+      "translation": "新建组"
+    },
+    {
+      "context": "LayerControls",
+      "source": "Group Selected",
+      "translation": "编组选中项"
+    },
+    {
+      "context": "LayerControls",
+      "source": "Activate/Deactivate Layer",
+      "translation": "启用／禁用图层"
+    },
+    {
+      "context": "LayerControls",
+      "source": "Set Spline Color",
+      "translation": "设置样条颜色"
+    },
+    {
+      "context": "LayerControls",
+      "source": "Set Matte Color",
+      "translation": "设置蒙版颜色"
+    },
+    {
+      "context": "LayerControls",
+      "source": "Toggle Visibility",
+      "translation": "切换可见性"
+    },
+    {
+      "context": "LayerControls",
+      "source": "Toggle Process",
+      "translation": "切换处理状态"
+    },
+    {
+      "context": "LayerControls",
+      "source": "Reset surface",
+      "translation": "重置表面"
+    },
+    {
+      "context": "LayerControls",
+      "source": "Reset the surface to its default position",
+      "translation": "将表面恢复到默认位置"
+    },
+    {
+      "context": "LayerControls",
+      "source": "Group selected (or create new empty group)",
+      "translation": "将选中项编组（或新建空组）"
+    },
+    {
+      "context": "LayerControls",
+      "source": "Delete current layer in all frames",
+      "translation": "在全部帧中删除当前图层"
+    },
+    {
+      "context": "GUI::LayerControls",
+      "source": "Change '%1' property of the selected item(s)",
+      "translation": "更改选中项的“%1”属性"
+    },
+    {
+      "context": "GUI::LayerControls",
+      "source": "Processed",
+      "translation": "参与处理"
+    },
+    {
+      "context": "GUI::LayerControls",
+      "source": "Lock/Unlock Selected",
+      "translation": "锁定／解锁选中项"
+    },
+    {
+      "context": "LayerControls",
+      "source": "Layer Controls",
+      "translation": "图层控件"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Interlaced",
+      "translation": "隔行"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Active",
+      "translation": "活动视图"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Anaglyph",
+      "translation": "色差立体"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Red/Cyan",
+      "translation": "红／青"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Green/Magenta",
+      "translation": "绿／洋红"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Difference",
+      "translation": "差值"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Flip left and right",
+      "translation": "交换左右视图"
+    },
+    {
+      "context": "ViewControls",
+      "source": "View Controls",
+      "translation": "视图控件"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Auto alpha",
+      "translation": "自动透明度"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Source alpha",
+      "translation": "源透明度"
+    },
+    {
+      "context": "ViewControls",
+      "source": "&Overlays",
+      "translation": "叠加显示(&O)"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Proxies",
+      "translation": "代理分辨率"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Views",
+      "translation": "视图"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Channels",
+      "translation": "通道"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Mattes",
+      "translation": "蒙版"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Layers",
+      "translation": "图层"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Spline tangents",
+      "translation": "样条切线"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Track Mesh",
+      "translation": "跟踪网格"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Selected layer",
+      "translation": "选中图层"
+    },
+    {
+      "context": "ViewControls",
+      "source": "View: %1",
+      "translation": "视图：%1"
+    },
+    {
+      "context": "ViewControls",
+      "source": "All mattes",
+      "translation": "全部蒙版"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Selected mattes",
+      "translation": "选中蒙版"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Selected track mattes",
+      "translation": "选中的跟踪蒙版"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Red",
+      "translation": "红色"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Green",
+      "translation": "绿色"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Blue",
+      "translation": "蓝色"
+    },
+    {
+      "context": "ViewControls",
+      "source": "All layers",
+      "translation": "全部图层"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Selected tangents",
+      "translation": "选中切线"
+    },
+    {
+      "context": "ViewControls",
+      "source": "All tangents",
+      "translation": "全部切线"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Splines",
+      "translation": "样条"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Show Mesh",
+      "translation": "显示网格"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Show Points",
+      "translation": "显示控制点"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Quick stabilize",
+      "translation": "快速稳定"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Form",
+      "translation": "面板"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Show RGB channels",
+      "translation": "显示 RGB 通道"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Show alpha channel",
+      "translation": "显示透明度通道"
+    },
+    {
+      "context": "ViewControls",
+      "source": "&Mattes",
+      "translation": "蒙版(&M)"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Show layer mattes",
+      "translation": "显示图层蒙版"
+    },
+    {
+      "context": "ViewControls",
+      "source": "&Color layer mattes",
+      "translation": "彩色图层蒙版(&C)"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Colourise layer mattes",
+      "translation": "为图层蒙版着色"
+    },
+    {
+      "context": "ViewControls",
+      "source": "&Layers",
+      "translation": "图层(&L)"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Show layer outlines",
+      "translation": "显示图层轮廓"
+    },
+    {
+      "context": "ViewControls",
+      "source": "&Spline and Tangents",
+      "translation": "样条与切线(&S)"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Show spline tangents",
+      "translation": "显示样条切线"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Show track mesh",
+      "translation": "显示跟踪网格"
+    },
+    {
+      "context": "ViewControls",
+      "source": "&Zoom Windows",
+      "translation": "放大窗口(&Z)"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Show zoom windows",
+      "translation": "显示放大窗口"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Stabilize",
+      "translation": "稳定"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Activate quick stabilise mode",
+      "translation": "启用快速稳定模式"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Trace",
+      "translation": "轨迹"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Show surface trace points",
+      "translation": "显示表面轨迹点"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Toggle 360 View",
+      "translation": "切换 360 度视图"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Brightness",
+      "translation": "亮度"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Enable brightness scaling",
+      "translation": "启用亮度缩放"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Preview On/Off",
+      "translation": "开启／关闭预览"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Toggle Module Preview",
+      "translation": "切换模块预览"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Clip name",
+      "translation": "素材名称"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Clip to show in the main window",
+      "translation": "主窗口显示的素材"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Proxy scale",
+      "translation": "代理缩放比例"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Colorize layer mattes",
+      "translation": "为图层蒙版着色"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Layer matte opacity",
+      "translation": "图层蒙版不透明度"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Enable all overlays",
+      "translation": "启用全部叠加显示"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Activate quick stablize mode",
+      "translation": "启用快速稳定模式"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Brightness scale multiplier",
+      "translation": "亮度缩放倍数"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Gamma Correction",
+      "translation": "伽马校正"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Switch between equirectangular and rectilinear views",
+      "translation": "在等距柱状与直线透视视图间切换"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Show viewer preferences",
+      "translation": "显示查看器首选项"
+    },
+    {
+      "context": "GUI::LayoutManager",
+      "source": "Save current as...",
+      "translation": "将当前布局另存为..."
+    },
+    {
+      "context": "GUI::LayoutManager",
+      "source": "Workspace",
+      "translation": "工作区"
+    },
+    {
+      "context": "GUI::LayoutManager",
+      "source": "Layout",
+      "translation": "布局"
+    },
+    {
+      "context": "GUI::LayoutManager",
+      "source": "Save current layout",
+      "translation": "保存当前布局"
+    },
+    {
+      "context": "GUI::LayoutManager",
+      "source": "Save current layout as...",
+      "translation": "将当前布局另存为..."
+    },
+    {
+      "context": "GUI::LayoutManager",
+      "source": "Revert to saved",
+      "translation": "恢复已保存的布局"
+    },
+    {
+      "context": "GUI::LayoutManager",
+      "source": "Revert to default",
+      "translation": "恢复默认布局"
+    },
+    {
+      "context": "GUI::LayoutManager",
+      "source": "Manage custom layouts...",
+      "translation": "管理自定义布局..."
+    },
+    {
+      "context": "GUI::LayoutManager",
+      "source": "Workspace: %1",
+      "translation": "工作区：%1"
+    },
+    {
+      "context": "MinimalUIWidget",
+      "source": "Essentials",
+      "translation": "基础"
+    },
+    {
+      "context": "MinimalUIWidget",
+      "source": "Track motion options",
+      "translation": "跟踪运动选项"
+    },
+    {
+      "context": "MinimalUIWidget",
+      "source": "Trans",
+      "translation": "平移"
+    },
+    {
+      "context": "MinimalUIWidget",
+      "source": "Scale",
+      "translation": "缩放"
+    },
+    {
+      "context": "MinimalUIWidget",
+      "source": "Rotate",
+      "translation": "旋转"
+    },
+    {
+      "context": "MinimalUIWidget",
+      "source": "Skew",
+      "translation": "斜切"
+    },
+    {
+      "context": "MinimalUIWidget",
+      "source": "Persp",
+      "translation": "透视"
+    },
+    {
+      "context": "MinimalUIWidget",
+      "source": "Track",
+      "translation": "跟踪"
+    },
+    {
+      "context": "MinimalUIWidget",
+      "source": "Link to track",
+      "translation": "关联跟踪"
+    },
+    {
+      "context": "MinimalUIWidget",
+      "source": "Surface",
+      "translation": "表面"
+    },
+    {
+      "context": "MinimalUIWidget",
+      "source": "Show surface\n(tracking data)",
+      "translation": "显示表面\n（跟踪数据）"
+    },
+    {
+      "context": "MinimalUIWidget",
+      "source": "Align surface",
+      "translation": "对齐表面"
+    },
+    {
+      "context": "MinimalUIWidget",
+      "source": "Show grid",
+      "translation": "显示网格"
+    },
+    {
+      "context": "MinimalUIWidget",
+      "source": "Exports",
+      "translation": "导出"
+    },
+    {
+      "context": "MinimalUIWidget",
+      "source": "Export Tracking Data",
+      "translation": "导出跟踪数据"
+    },
+    {
+      "context": "MinimalUIWidget",
+      "source": "Export Shape Data",
+      "translation": "导出形状数据"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "The specified clip is a matte clip for another layer.",
+      "translation": "指定素材已作为其他图层的蒙版素材。"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "Import Insert Clip",
+      "translation": "导入插入素材"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "Import Matte Clip",
+      "translation": "导入蒙版素材"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "Project default",
+      "translation": "项目默认"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "Layer Properties",
+      "translation": "图层属性"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "In",
+      "translation": "入点"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "Set Layer In Point to current frame",
+      "translation": "将图层入点设置为当前帧"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "Reset Layer In Point to follow the project In Point",
+      "translation": "重置图层入点以跟随项目入点"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "Out",
+      "translation": "出点"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "Reset Layer Out Point to follow the project Out Point",
+      "translation": "重置图层出点以跟随项目出点"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "Set Layer Out Point to current frame",
+      "translation": "将图层出点设置为当前帧"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "Blend Mode",
+      "translation": "混合模式"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "Choice of layer blend modes",
+      "translation": "选择图层混合模式"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "Invert matte of layer",
+      "translation": "反转图层蒙版"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "Invert",
+      "translation": "反转"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "Insert Clip",
+      "translation": "插入素材"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "Foreground insert clip for current layer",
+      "translation": "当前图层的前景插入素材"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "Matte Clip",
+      "translation": "蒙版素材"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "Whether to use clip as matte for layer, and if so, which layer",
+      "translation": "是否将素材用作图层蒙版，以及用于哪个图层"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "Link to track",
+      "translation": "关联跟踪"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "Layer from which tracking data is taken",
+      "translation": "提供跟踪数据的图层"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "Link splines to the base track, or to the adjusted track of the specified layer",
+      "translation": "将样条关联至指定图层的基础跟踪或调整后跟踪"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "Adjusted",
+      "translation": "调整后"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "Detail",
+      "translation": "细节"
+    },
+    {
+      "context": "frmLayerProperties",
+      "source": "Hero view",
+      "translation": "主视图"
+    },
+    {
+      "context": "frmEdgeProperties",
+      "source": "Edge Properties",
+      "translation": "边缘属性"
+    },
+    {
+      "context": "frmEdgeProperties",
+      "source": "Motion Blur",
+      "translation": "运动模糊"
+    },
+    {
+      "context": "frmEdgeProperties",
+      "source": "Generate motion blur from spline or tracking motion",
+      "translation": "根据样条运动或跟踪运动生成运动模糊"
+    },
+    {
+      "context": "frmEdgeProperties",
+      "source": "Set",
+      "translation": "设置"
+    },
+    {
+      "context": "frmEdgeProperties",
+      "source": "Set a soft edge either for the selected points or the whole layer",
+      "translation": "为选中控制点或整个图层设置柔化边缘"
+    },
+    {
+      "context": "frmEdgeProperties",
+      "source": "Add a soft edge either to the selected points or the whole layer",
+      "translation": "为选中控制点或整个图层增加柔化边缘"
+    },
+    {
+      "context": "frmEdgeProperties",
+      "source": "Subtract a soft edge from either the selected points or the whole layer",
+      "translation": "减少选中控制点或整个图层的柔化边缘"
+    },
+    {
+      "context": "frmEdgeProperties",
+      "source": "Soft edge width in pixels: Positive values move the edge spline out, negative values move the main spline in",
+      "translation": "柔化边缘宽度（像素）：正值向外移动边缘样条，负值向内移动主样条"
+    },
+    {
+      "context": "frmEdgeProperties",
+      "source": "Edge Width",
+      "translation": "边缘宽度"
+    },
+    {
+      "context": "frmEdgeProperties",
+      "source": "Angle",
+      "translation": "角度"
+    },
+    {
+      "context": "frmEdgeProperties",
+      "source": "Level of motion blur",
+      "translation": "运动模糊程度"
+    },
+    {
+      "context": "frmEdgeProperties",
+      "source": "Quality",
+      "translation": "质量"
+    },
+    {
+      "context": "frmEdgeProperties",
+      "source": "Phase",
+      "translation": "相位"
+    },
+    {
+      "context": "frmCloseProject",
+      "source": "&Reconnect",
+      "translation": "重新连接(&R)"
+    },
+    {
+      "context": "frmCloseProject",
+      "source": "&Cancel",
+      "translation": "取消(&C)"
+    },
+    {
+      "context": "frmCloseProject",
+      "source": "&Save",
+      "translation": "保存(&S)"
+    },
+    {
+      "context": "frmCloseProject",
+      "source": "&Don't Save",
+      "translation": "不保存(&D)"
+    },
+    {
+      "context": "frmCloseProject",
+      "source": "&Retain cached renders",
+      "translation": "保留渲染缓存(&R)"
+    },
+    {
+      "context": "frmCloseProject",
+      "source": "Project",
+      "translation": "项目"
+    },
+    {
+      "context": "frmCloseProject",
+      "source": "Keep all cached renders until the host program has quit. If you load the Mocha interface again, previously rendered material will still exist.",
+      "translation": "在宿主程序退出前保留全部渲染缓存。再次打开 Mocha 界面时，之前渲染的素材仍然可用。"
+    },
+    {
+      "context": "frmCloseProject",
+      "source": "&Retain cached renders until host exits",
+      "translation": "在宿主退出前保留渲染缓存(&R)"
+    },
+    {
+      "context": "frmCloseProject",
+      "source": "Your changes will be lost if you don't save them.",
+      "translation": "若不保存，更改将丢失。"
+    },
+    {
+      "context": "frmCloseProject",
+      "source": "Do you want to save the changes you made in the project%1?",
+      "translation": "是否保存对项目%1所作的更改？"
+    },
+    {
+      "context": "frmCloseProject",
+      "source": "Save &As...",
+      "translation": "另存为...(&A)"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Form",
+      "translation": "面板"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Add/remove keyframe",
+      "translation": "添加／移除关键帧"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Add or remove a keyframe at current position",
+      "translation": "在当前位置添加或移除关键帧"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Auto keyframe insertion",
+      "translation": "自动插入关键帧"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Enable automatic keyframe insertion",
+      "translation": "启用自动插入关键帧"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Delete all keyframes",
+      "translation": "删除全部关键帧"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Delete all keyframes in timeline",
+      "translation": "删除时间轴中的全部关键帧"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Multi View Keyframing",
+      "translation": "多视图关键帧"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Apply keyframe changes to all views",
+      "translation": "将关键帧更改应用到全部视图"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Uber-key",
+      "translation": "全局关键帧"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Enable Uber-key",
+      "translation": "启用全局关键帧"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Project In Point",
+      "translation": "项目入点"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Set in point",
+      "translation": "设置入点"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Reset in point to start of clip",
+      "translation": "将入点重置为素材起始帧"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Current Frame",
+      "translation": "当前帧"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Reset out point to end of clip",
+      "translation": "将出点重置为素材结束帧"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Set out point",
+      "translation": "设置出点"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Project Out Point",
+      "translation": "项目出点"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Zoom timeline to In/Out points",
+      "translation": "将时间轴缩放至入点／出点范围"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Zoom timeline to full frame range",
+      "translation": "将时间轴缩放至全部帧范围"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Goto In point",
+      "translation": "转到入点"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Play backwards",
+      "translation": "反向播放"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Goto previous frame",
+      "translation": "转到上一帧"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Stop playback",
+      "translation": "停止播放"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Goto next frame",
+      "translation": "转到下一帧"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Play forwards",
+      "translation": "正向播放"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Goto Out point",
+      "translation": "转到出点"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Change playback mode",
+      "translation": "更改播放模式"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Track",
+      "translation": "跟踪"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Render backwards",
+      "translation": "向后渲染"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Render to previous frame",
+      "translation": "渲染至上一帧"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Render this frame",
+      "translation": "渲染当前帧"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Stop rendering",
+      "translation": "停止渲染"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Render to next frame",
+      "translation": "渲染至下一帧"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Render Forwards",
+      "translation": "向前渲染"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Enable to operate on all views. Disable to operate only on the current view.",
+      "translation": "启用后操作全部视图；禁用后仅操作当前视图。"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Key",
+      "translation": "关键帧"
+    },
+    {
+      "context": "TimelineControls",
+      "source": "Add a new keyframe at current position",
+      "translation": "在当前位置添加新关键帧"
+    },
+    {
+      "context": "KeyPreferences",
+      "source": "Overlay Colors",
+      "translation": "叠加显示颜色"
+    },
+    {
+      "context": "KeyPreferences",
+      "source": "&Profile",
+      "translation": "配置方案(&P)"
+    },
+    {
+      "context": "KeyPreferences",
+      "source": "&Filter",
+      "translation": "筛选(&F)"
+    },
+    {
+      "context": "KeyPreferences",
+      "source": "D&uplicate",
+      "translation": "复制副本(&U)"
+    },
+    {
+      "context": "KeyPreferences",
+      "source": "&Rename",
+      "translation": "重命名(&R)"
+    },
+    {
+      "context": "KeyPreferences",
+      "source": "D&elete",
+      "translation": "删除(&E)"
+    },
+    {
+      "context": "KeyPreferences",
+      "source": "&Key Shortcuts",
+      "translation": "快捷键(&K)"
+    },
+    {
+      "context": "KeyPreferences",
+      "source": "Warning goes here",
+      "translation": "此处显示警告"
+    },
+    {
+      "context": "KeyPreferences",
+      "source": "Shortcut",
+      "translation": "快捷键"
+    },
+    {
+      "context": "KeyPreferences",
+      "source": "Action",
+      "translation": "动作"
+    },
+    {
+      "context": "KeyPreferences",
+      "source": "Category",
+      "translation": "类别"
+    },
+    {
+      "context": "KeyPreferences",
+      "source": "Use &Default",
+      "translation": "使用默认值(&D)"
+    },
+    {
+      "context": "KeyPreferences",
+      "source": "&Clear",
+      "translation": "清除(&C)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Choose one or more files",
+      "translation": "选择一个或多个文件"
+    },
+    {
+      "context": "frmMain",
+      "source": "Do you want to remove the entry from the recent file list?",
+      "translation": "是否从最近文件列表中移除此条目？"
+    },
+    {
+      "context": "frmMain",
+      "source": "The %1 file will be encrypted and will no longer be available in the licensed version of %2!\n\n",
+      "translation": "文件 %1 将被加密，并且将无法再用于 %2 的已授权版本！\n\n"
+    },
+    {
+      "context": "frmMain",
+      "source": "The %1 file was created in %2 and will be converted to the latest %3 file format.\n\nDo you want to replace %4?",
+      "translation": "文件 %1 创建于 %2，将被转换为最新的 %3 文件格式。\n\n是否替换 %4？"
+    },
+    {
+      "context": "frmMain",
+      "source": "The project was created in %1 and has been converted to the latest file format.\n\n%2 project files are not supported in earlier versions.\n\nWould you like to save the project immediately with a new name?",
+      "translation": "此项目创建于 %1，现已转换为最新文件格式。\n\n早期版本不支持 %2 项目文件。\n\n是否立即以新名称保存项目？"
+    },
+    {
+      "context": "frmMain",
+      "source": "You have recovered an autosaved project.\nNext time you save this project it will overwrite the original project file:\n\n%1\n\nWould you like to save the project immediately with a new name?",
+      "translation": "已恢复一个自动保存的项目。\n下次保存时将覆盖原始项目文件：\n\n%1\n\n是否立即以新名称保存项目？"
+    },
+    {
+      "context": "frmMain",
+      "source": "Zoom – to activate, hold down the assigned shortcut",
+      "translation": "缩放 — 按住所分配的快捷键以启用"
+    },
+    {
+      "context": "frmMain",
+      "source": "Pan – to activate, hold down the assigned shortcut",
+      "translation": "平移视图 — 按住所分配的快捷键以启用"
+    },
+    {
+      "context": "frmMain",
+      "source": "Rotate – to activate, hold down the assigned shortcut",
+      "translation": "旋转 — 按住所分配的快捷键以启用"
+    },
+    {
+      "context": "frmMain",
+      "source": "Scale – to activate, hold down the assigned shortcut",
+      "translation": "缩放 — 按住所分配的快捷键以启用"
+    },
+    {
+      "context": "frmMain",
+      "source": "Translate – to activate, hold down the assigned shortcut",
+      "translation": "平移 — 按住所分配的快捷键以启用"
+    },
+    {
+      "context": "frmMain",
+      "source": "<HTML><H1>%1</H1><P>Version %2<BR>Build Date %3</P><P>&copy; 2001-%4 Boris FX and its licensors<BR><A HREF=\"%5\">Third-party license information</A></P>",
+      "translation": "<HTML><H1>%1</H1><P>版本 %2<BR>构建日期 %3</P><P>&copy; 2001-%4 Boris FX 及其许可方<BR><A HREF=\"%5\">第三方许可信息</A></P>"
+    },
+    {
+      "context": "frmMain",
+      "source": "<HTML>Please contact your system administrator<br>or <A HREF=\"%1\">technical support</A></HTML>.",
+      "translation": "<HTML>请联系系统管理员<br>或<A HREF=\"%1\">技术支持</A></HTML>。"
+    },
+    {
+      "context": "frmMain",
+      "source": "Attempts were made to open the documentation at the following paths:\n\"%1\"\n\"%2\".",
+      "translation": "曾尝试从以下路径打开文档：\n\"%1\"\n\"%2\"。"
+    },
+    {
+      "context": "frmMain",
+      "source": "<HTML>This feature is not included in your license. Export will be limited to 10 frames. Please contact %1 to upgrade.</HTML>",
+      "translation": "<HTML>您的许可证不包含此功能。导出将限制为 10 帧。请联系 %1 以升级。</HTML>"
+    },
+    {
+      "context": "frmMain",
+      "source": "Images and Movies (",
+      "translation": "图像和影片 ("
+    },
+    {
+      "context": "frmMain",
+      "source": "Movies (",
+      "translation": "影片 ("
+    },
+    {
+      "context": "frmMain",
+      "source": "Images (",
+      "translation": "图像 ("
+    },
+    {
+      "context": "frmMain",
+      "source": "%1 files (%2",
+      "translation": "%1 文件 (%2"
+    },
+    {
+      "context": "frmMain",
+      "source": "All Files (*.* *)",
+      "translation": "所有文件 (*.* *)"
+    },
+    {
+      "context": "frmMain",
+      "source": "%1 projects (*%2)",
+      "translation": "%1 项目 (*%2)"
+    },
+    {
+      "context": "frmMain",
+      "source": "Failed to launch %1. Please make sure this external program is installed in the location specified in preferences.",
+      "translation": "无法启动 %1。请确认已将此外部程序安装在首选项所指定的位置。"
+    },
+    {
+      "context": "frmCloseProject",
+      "source": "You may be able to reconnect to the license server or dongle.\nMake sure the license server is running, or the required dongle is plugged in, before attempting to reconnect.\nIf the reconnection attempt fails, wait 30 seconds before retrying.\n",
+      "translation": "可以尝试重新连接许可证服务器或加密狗。\n重新连接前，请确保许可证服务器正在运行，或所需的加密狗已插入。\n若重新连接失败，请等待 30 秒后重试。\n"
+    },
+    {
+      "context": "frmCloseProject",
+      "source": "\nIf reconnection is not possible, either save or discard your changes.",
+      "translation": "\n如果无法重新连接，请保存或放弃更改。"
+    },
+    {
+      "context": "frmViewerPreferences",
+      "source": "Viewer Preferences",
+      "translation": "查看器首选项"
+    },
+    {
+      "context": "frmProjectNotes",
+      "source": "Project Notes",
+      "translation": "项目备注"
+    },
+    {
+      "context": "PointColours",
+      "source": "Overlay Colors",
+      "translation": "叠加颜色"
+    },
+    {
+      "context": "frmKeyframeControls",
+      "source": "Keyframe Controls",
+      "translation": "关键帧控件"
+    },
+    {
+      "context": "ViewManager",
+      "source": "&Show All Overlays",
+      "translation": "显示全部叠加层(&S)"
+    }
+  ],
+  "intentional_preservations": [
+    {
+      "context": "frmMain",
+      "source": "%1.converted%2",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "%1.converted%3%2",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Boris FX",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Recent Files submenu stub",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+N",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+O",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+Z",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+Shift+Z",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": ".",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": ">",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "<",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": ";",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": ":",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Esc",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "A",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+Alt+Z",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+S",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+Shift+S",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+W",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+Q",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Shift+Del",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+A",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "}",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "{",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "F1",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+Right",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+Up",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+Left",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+Down",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Alt+Left",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Alt+Right",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Space",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Alt+Down",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Alt+Up",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "/",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "*",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Alt+X",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+P",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "RenameCurrentLayout",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+F",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "I",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Z",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "X",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "W",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "E",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Q",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+L",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+G",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+B",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+J",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+M",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+T",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "C",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "O",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+C",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+V",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Del",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "LayoutPlaceholder",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Alt+S",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "S",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "[",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "]",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "+",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "-",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+Shift+B",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+Shift+E",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+Shift+I",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": "Ctrl+Shift+A",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmMain",
+      "source": ")",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "LayerControls",
+      "source": "Ctrl+D",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "ViewControls",
+      "source": "3D",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "ViewControls",
+      "source": "RGB",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Alt+R",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Alt+G",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Alt+B",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Alt+1",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Alt+2",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Alt+4",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Alt+5",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Alt+8",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "ViewControls",
+      "source": "360",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Shift+O",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "ViewControls",
+      "source": "Shift+P",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "ViewControls",
+      "source": "1:1",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "ViewControls",
+      "source": "1:2",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "ViewControls",
+      "source": "1:4",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "ViewControls",
+      "source": "A",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "ViewControls",
+      "source": "1",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "ViewControls",
+      "source": "1.0",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmEdgeProperties",
+      "source": "+",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmEdgeProperties",
+      "source": "-",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    },
+    {
+      "context": "frmCloseProject",
+      "source": "TextLabel",
+      "reason": "shortcut, technical token, brand, or internal placeholder; not a translation target"
+    }
+  ],
+  "pending": [],
+  "legacy_fixed": [
+    {
+      "offset": 55804808,
+      "source": "View controls",
+      "translation": "查看控件",
+      "reason": "retain the previously deployed fixed-string patch for a source outside the direct translation-site catalog"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "utc": "2026-09-08T01:22:21.7169438Z",
+  "shared_entry": "C:\\Program Files\\Adobe\\Common\\Plug-ins\\7.0\\MediaCore\\Sapphire Plug-ins\\Sapphire Lighting\\S_Light3D.aex",
+  "display_name": "S_3D灯光",
+  "category": "S_蓝宝石 光照效果",
+  "match_name": "S_Light3D",
+  "old_sha256": "B65193F4D46F0911D1DCBB0B56583E185D10F70B2A65A7747C1394999E6B97AA",
+  "new_sha256": "A569D6B564F75A59185C0F2E1A25A3CBA08BD6F8A2435EEB3FE2FE1CD4C3F985",
+  "backup_root": "D:\\tmp\\light3d-release-backup-20260908",
+  "retired_test_entry": "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\O_Light3D.aex",
+  "retired_test_sha256": "C5ABE5E85504E80A51C96A895D2C07DAEBF4AC966766F5233CB86913981FCFFD",
+  "runtime_root": "D:\\tmp\\saprt\\l3dao",
+  "scope": "Light3D only; shared AE/Premiere entry",
+  "runtime_validation": "pending after canonical entry replacement",
+  "user_authorization": "接受。去除旧效果，用新效果",
+  "other_sapphire_effects": "not modified"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "蓝宝石与 Mocha 原生汉化"
+  short_description: "重建 Light3D 参数及 Mocha 多级菜单汉化，保留内部标识并校验回退"
+  default_prompt: "使用 $sapphire-inner-localization 检查版本及已验收状态，定位漏译并构建只改显示层的候选补丁。"

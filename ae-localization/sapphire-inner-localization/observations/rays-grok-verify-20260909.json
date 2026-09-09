@@ -1,0 +1,22 @@
+{
+  "job": "rays-native-verify-20260909-c",
+  "requested_model": "grok-4.6",
+  "mode": "ReadOnly",
+  "success": true,
+  "attempts": 1,
+  "acceptance_results": [
+    {
+      "criterion_id": "A1",
+      "verdict": "passed",
+      "evidence_ids": [
+        "R1"
+      ],
+      "detail": "47 original keys have Chinese titles per final-titles.json; corrected source opacity (scale_source), background brightness (scale_background), center Mocha tracking (center_uses_mocha); native DLL built by the HOST, not by Grok; AE runtime and complete UI acceptance remain pending"
+    }
+  ],
+  "scope": "47-key Chinese map and supplied host static-build evidence only",
+  "native_build_author": "host",
+  "runtime_validation": "pending user inspection",
+  "all_ui_translated": false,
+  "next_action": "User AE test: S_射线副本 labels/render/keyframes/save-reopen/Mocha; then inventory remaining buttons/groups/popup captions. Do not replace formal S_Rays yet."
+}

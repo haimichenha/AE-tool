@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-09",
+  "display_name": "S_射线副本",
+  "match_name": "R_Rays",
+  "path": "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\R_Rays.aex",
+  "sha256": "92F35C21BF36E5A794AF344A61C9641A4F04C28C801AD33B53CD0E3ECDFD0210",
+  "runtime_root": "D:\\tmp\\saprt\\rays09",
+  "core_sha256": "54DB5D9C542AE758C0E9F3803FBA60F830A6B572B5DF1B439605EE2DF8B71BBE",
+  "official_S_Rays": "unchanged",
+  "Light3D_Mocha": "unchanged",
+  "grok_contribution": "final47-title map from Grok correction run attempt3; host validated; host built native files",
+  "runtime_validation": "pending",
+  "all_ui_translated": false
+}

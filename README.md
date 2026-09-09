@@ -3,7 +3,7 @@
 Two self-contained source areas:
 
 - `ae-localization/` — Adobe host, Red Giant Universe, and Sapphire localization research/scripts.
-- `grok-skills/` — Grok software-execution skill, self-test harness, and archived script lineage.
+- `grok-skills/` — General Grok task-continuation skill, software adapters, tests, and archived script lineage.
 
 ## Distribution boundary
 
@@ -15,7 +15,8 @@ This repository contains only text source, mappings, deployment records, and obs
 - `ae-localization/red-giant-universe/`: RG/Universe panel and restoration scripts.
 - `ae-localization/sapphire-inner-localization/`: Light3D and Mocha text-mapping experiments, scripts, maps, and observed outcomes. `trials/` binaries are intentionally not published.
 - `ae-localization/legacy-jsx/`: Existing JSX helpers, retained separately from direct-DLL work.
-- `grok-skills/grok-software-execution/`: The reusable skill source.
+- `grok-skills/grok-task-execution/`: General host-supervised Grok work/verify/resume workflow for code, documents, research, data, and operations.
+- `grok-skills/grok-software-execution/`: Software-specific adapters and shared CLI transport dependency.
 - `grok-skills/selftest/`: Acceptance harness.
 - `grok-skills/archives/`: Earlier saved script versions for comparison.
 

@@ -5,6 +5,8 @@ description: Run evidence-gated software investigation, implementation, and veri
 
 # Grok Software Execution
 
+跨领域持续任务（代码、文档、数据、研究、运维）优先使用相邻的 [grok-task-execution](../grok-task-execution/SKILL.md)。本技能保留软件专用执行器及公共传输依赖；旧 manifest runner 的 ACTION/VERIFY 共用重试计数，不能把最后一次 ACTION 成功但缺少 VERIFY 当作已验收。
+
 Run `scripts/run-grok-direct-task.ps1` for normal software tasks: Grok directly reads files, runs permitted commands, edits authorized target roots, then verifies. Use `run-grok-software-task.ps1` only when direct tools are unavailable and a constrained manifest fallback is required.
 
 ## Required inputs

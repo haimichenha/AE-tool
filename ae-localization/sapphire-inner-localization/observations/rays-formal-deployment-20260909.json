@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "installed": "C:\\Program Files\\Adobe\\Common\\Plug-ins\\7.0\\MediaCore\\Sapphire Plug-ins\\Sapphire Lighting\\S_Rays.aex",
+  "previous_sha256": "7040173BBD4D2C15AA42E4CB97E6246A0131AB3B651140F51CE29F701D481274",
+  "installed_sha256": "914F931DC9517863D5CB9012474938C1AC8FCACF06B6E2F7A0F80D1FAEA289E1",
+  "display_name": "S_射线",
+  "match_name": "S_Rays",
+  "test_entry_retired": "D:\\AZBao\\PR 22\\Ae2022\\Adobe After Effects 2025\\Support Files\\Plug-ins\\Effects\\Sapphire Patch Lab\\R_Rays.aex",
+  "test_backup": "D:\\tmp\\rays-release-20260909\\backup\\R_Rays.test.aex",
+  "previous_backup": "D:\\tmp\\rays-release-20260909\\backup\\S_Rays.previous.aex",
+  "core_runtime": "D:\\tmp\\saprt\\rays09",
+  "mocha_runtime": "D:\\tmp\\saprt\\l3dao",
+  "formal_runtime_validation": "pending restart and old-project test",
+  "shared_hosts": [
+    "After Effects",
+    "Premiere Pro"
+  ],
+  "test_project_note": "R_Rays projects require re-adding S_Rays or restoring backed-up R_Rays entry",
+  "category": "S_蓝宝石 光照效果",
+  "reproducible_build": "byte-identical second build from backup",
+  "user_feedback": "User reported that localized copy appeared complete and authorized promotion; not full functional regression."
+}

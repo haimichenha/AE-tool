@@ -1,0 +1,11 @@
+{
+  "source_sha256": "7040173BBD4D2C15AA42E4CB97E6246A0131AB3B651140F51CE29F701D481274",
+  "output_sha256": "92F35C21BF36E5A794AF344A61C9641A4F04C28C801AD33B53CD0E3ECDFD0210",
+  "display_name": "S_射线副本",
+  "test_match_name": "R_Rays",
+  "original_match_name": "S_Rays",
+  "runtime_root": "D:\\tmp\\saprt\\rays09",
+  "native_code_changed": false,
+  "original_installed_entry_changed": false,
+  "runtime_validation": "pending"
+}

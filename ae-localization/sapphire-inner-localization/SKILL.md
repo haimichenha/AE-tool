@@ -1,11 +1,13 @@
 ---
 name: sapphire-inner-localization
-description: 汉化 After Effects 的 Sapphire Light3D 参数面板及内置 Mocha 界面，重建版本锁定的 DLL 补丁，处理多级菜单遗漏、中文 PiPL 名称和隔离验证。用于原生插件显示层汉化，不使用 JSX，不默认推广到其他插件版本。
+description: 汉化 After Effects 的 Sapphire Light3D／Rays 参数面板及内置 Mocha 界面，重建版本锁定的 DLL 补丁，处理多级菜单遗漏、中文 PiPL 名称和隔离验证。用于原生插件显示层汉化，不使用 JSX，不默认推广到其他插件版本。
 ---
 
 # Sapphire／Mocha 原生显示层汉化
 
 ## 先选择工作路径
+
+- **S_Rays 原生汉化与正式入口**：读 [Rays 发布记录](RAYS-RELEASE-20260909.md) 与 [Grok 词表构建过程](RAYS-GROK-WORKFLOW-20260909.md)，使用版本锁定的 `build_rays_native_titles.py` / `build_rays_chinese_entry.py`；不能使用 Light3D 偏移。
 
 - **检查当前已验收版本、部署或回退**：先读 [当前状态与入口替换](references/current-state.md)。
 - **Light3D 参数标题重建**：读 [REPRODUCE.md](REPRODUCE.md)，依序使用 `scripts/new_light3d_bulk_trial.py` 与 `scripts/new_mocha_root_thunk_trial.py`。该历史构建链使用固定 `D:\tmp` 路径，输出拒绝覆盖。

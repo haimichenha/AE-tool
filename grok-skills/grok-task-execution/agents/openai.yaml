@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grok 通用持续执行"
+  short_description: "指导 Grok 跨领域持续执行、独立验收、保存证据与中断续跑"
+  default_prompt: "使用 $grok-task-execution 指导 Grok 持续推进当前任务，执行后独立验收并保存可续跑进度。"

@@ -26,6 +26,9 @@ class LedgerTests(unittest.TestCase):
         t = self.state['tasks'][task]
         r = dict(task_id=task, phase=t['phase'], attempt=t['attempts'][t['phase']], reviewer='host', outcome=outcome,
                  note='independent test fixture check', evidence=[dict(id='E1', path=str(self.e), sha256=m.digest(self.e))])
+        r['progress'] = dict(kind='evidence_added' if t['phase']=='work' else 'validation_run', summary='Task-goal evidence independently read back', evidence_ids=['E1'])
+        if outcome == 'retry':
+            r['retry_reason'] = 'bounded synthetic transient transport error; no target side effects'
         if outcome == 'passed':
             r.update(acceptance={'A1': {'verdict': 'passed', 'evidence_ids': ['E1']}}, remaining_work=[])
         r.update(extra)
@@ -132,6 +135,32 @@ class LedgerTests(unittest.TestCase):
         m.begin(self.state, 'one', 'work')
         with self.assertRaisesRegex(ValueError, 'no-side-effects'):
             m.record(self.state, self.receipt('retry'))
+
+    def test_progress_is_required_not_just_another_command(self):
+        m.begin(self.state, 'one', 'work')
+        r = self.receipt('ready_for_verify'); r.pop('progress')
+        with self.assertRaisesRegex(ValueError, 'progress kind'):
+            m.record(self.state, r)
+
+    def test_relabeling_same_evidence_is_not_progress(self):
+        self.work()
+        m.begin(self.state, 'one', 'verify')
+        m.record(self.state, self.receipt('rework'))
+        m.begin(self.state, 'one', 'work')
+        r = self.receipt('ready_for_verify')
+        r['note'] = 'different command name, same result'
+        with self.assertRaisesRegex(ValueError, 'same evidence'):
+            m.record(self.state, r)
+
+    def test_new_evidence_after_rework_can_advance(self):
+        self.work()
+        m.begin(self.state, 'one', 'verify')
+        m.record(self.state, self.receipt('rework'))
+        self.e = self.root / 'new-evidence.txt'
+        self.e.write_text('new result with independently checked correction', encoding='utf-8')
+        m.begin(self.state, 'one', 'work')
+        m.record(self.state, self.receipt('ready_for_verify'))
+        self.assertEqual(m.next_step(self.state)['phase'], 'verify')
 
     def test_readonly_task_and_verify_mode(self):
         self.card['tasks'][0]['mode'] = 'ReadOnly'

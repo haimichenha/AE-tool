@@ -88,3 +88,18 @@ verify 通过回执增加：
 上述字段并入完整回执，保留 task_id/phase/attempt/reviewer/note/evidence。每个 criterion 都要有通过证据。证据日志应保存在不会被下一步覆盖的位置；将产物哈希、命令、退出码写入日志，不能只引用稍后必然变化的工作文件。
 
 账本能校验引用和哈希，不能证明人工审核诚实或语义正确；宿主仍需阅读证据。预算、中断、拒绝均不允许伪造 passed。
+
+## Version 2：每一步的有效进展
+
+新建账本采用version=2；旧账本保留原版恢复语义，不在续跑时暗改验收标准。
+`ready_for_verify`、`passed` 和 `rework` 回执必须额外包含：
+
+```json
+"progress": {
+  "kind": "evidence_added",
+  "summary": "对应A1：实际读取输入并发现缺失行，下一步需要修正汇总",
+  "evidence_ids": ["E1"]
+}
+```
+
+kind可选artifact_changed、evidence_added、validation_run、blocker_isolated。verify实际执行验证通常用validation_run。retry回执还需retry_reason说明条件变化或有界瞬时故障依据。只有模型解释、换了命令字符串或改了日志时间戳不能证明有效进展；宿主要核对结果与目标的联系。

@@ -8,3 +8,7 @@
 - 本机原始证据保存在 `D:\tmp\grok-general-smoke-20260909`，不随Git上传；网络结果经宿主审核，不直接充当任务回执。
 
 边界：这证明本机的合成数据任务work→host check→verify→completed流程可运行。不是所有模型、网关、领域、权限和生产任务均已测试的保证。离线测试中的模拟响应不能冒充真实模型执行。
+
+## 后续真实工具任务（同日）
+
+最新26项测试通过。真实Claude用户配置下的CSV任务首轮空转；反馈后总额修正，但冻结宿主验收仍有3个边界失败，最后被hook停止。此后不追加同类重试，不将CLI success或模型自测当作全部验收通过。见 `../observations/grok-effective-simulation-20260909.json`。新增classify-claude-run.py区分真正验收与空结果/被hook停止。上面的纯算术冒烟只证明其有限范围，不覆盖此后复杂任务。

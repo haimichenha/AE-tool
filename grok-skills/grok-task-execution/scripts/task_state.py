@@ -82,7 +82,7 @@ def validate_card(card):
 def initialize(card, path):
     validate_card(card)
     require(not Path(path).exists(), 'state already exists; do not reset attempts')
-    state = {'version': 1, 'card': card, 'created_at': time.time(), 'steps': 0, 'events': [], 'tasks': {}}
+    state = {'version': 2, 'card': card, 'created_at': time.time(), 'steps': 0, 'events': [], 'tasks': {}}
     for t in card['tasks']:
         state['tasks'][t['id']] = {'status': 'pending', 'phase': 'work', 'attempts': {'work': 0, 'verify': 0}, 'receipts': []}
     save(path, state)
@@ -154,6 +154,24 @@ def record(state, receipt):
     require(isinstance(receipt.get('note'), str) and receipt['note'].strip(), 'host decision note required')
     ids = validate_evidence(receipt.get('evidence'))
     outcome = receipt['outcome']
+    if state.get('version', 1) >= 2:
+        if outcome in ('ready_for_verify', 'passed', 'rework'):
+            progress = receipt.get('progress', {})
+            require(progress.get('kind') in ('artifact_changed', 'evidence_added', 'validation_run', 'blocker_isolated'), 'goal-linked progress kind required')
+            require(isinstance(progress.get('summary'), str) and progress['summary'].strip(), 'explain how this step advances the task goal')
+            refs = progress.get('evidence_ids', [])
+            require(refs and set(refs) <= ids, 'progress must reference actual readback evidence')
+            evidence_hashes = sorted({item['sha256'].lower() for item in receipt['evidence'] if item['id'] in refs})
+            fingerprint = (progress['kind'], evidence_hashes)
+            for old in t['receipts']:
+                if old.get('outcome') not in ('ready_for_verify', 'passed', 'rework'):
+                    continue
+                prior = old.get('progress', {})
+                prior_refs = prior.get('evidence_ids', [])
+                prior_hashes = sorted({item['sha256'].lower() for item in old.get('evidence', []) if item['id'] in prior_refs})
+                require(fingerprint != (prior.get('kind'), prior_hashes), 'same evidence is not new progress; change hypothesis/input or record a bounded blocker')
+        if outcome == 'retry':
+            require(isinstance(receipt.get('retry_reason'), str) and receipt['retry_reason'].strip(), 'retry requires changed conditions or a bounded transient-failure rationale')
     allowed = ('ready_for_verify', 'retry', 'blocked') if phase == 'work' else ('passed', 'retry', 'rework', 'blocked')
     require(outcome in allowed, 'invalid phase outcome')
     if outcome == 'passed':

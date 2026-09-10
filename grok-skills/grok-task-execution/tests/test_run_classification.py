@@ -11,6 +11,17 @@ class RunClassificationTests(unittest.TestCase):
     def test_hook_stop_is_not_success(self):
         events=[{'message':{'content':[{'type':'tool_result','is_error':True,'content':'NO_PROGRESS: unchanged'}]}},self.final('')]
         self.assertEqual(m.classify(events,self.report())['status'],'blocked_no_progress')
+    def test_invalid_format_stop_is_not_success(self):
+        events=[{'message':{'content':[{'type':'tool_result','is_error':True,'content':'ARTIFACT_FORMAT: text is not DOCX'}]}},self.final('')]
+        self.assertEqual(m.classify(events,self.report())['status'],'blocked_invalid_format')
+    def test_format_error_then_verified_recovery(self):
+        events=[{'message':{'content':[{'type':'tool_result','is_error':True,'content':'ARTIFACT_FORMAT: text is not DOCX'}]}},self.final()]
+        result=m.classify(events,self.report())
+        self.assertTrue(result['accepted'])
+        self.assertEqual(result['invalid_format_denials'],1)
+    def test_repeated_command_stop_is_not_success(self):
+        events=[{'message':'a system status string'}, {'message':{'content':[{'type':'tool_result','is_error':True,'content':'FAILED_COMMAND_REPEAT: denied'}]}},self.final('')]
+        self.assertEqual(m.classify(events,self.report())['status'],'blocked_failed_command')
     def test_missing_criterion_rejected(self):
         r=self.report();r['required_criteria'].append('A2');self.assertFalse(m.classify([self.final()],r)['accepted'])
     def test_verified_recovery_accepted(self):self.assertTrue(m.classify([self.final()],self.report())['accepted'])

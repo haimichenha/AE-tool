@@ -7,6 +7,8 @@ from pathlib import Path
 def classify(events, verification):
     final = next((e for e in reversed(events) if e.get('type') == 'result'), None)
     noops = 0
+    invalid_formats = 0
+    failed_repeats = 0
     tools = []
     for e in events:
         msg = e.get('message', {})
@@ -22,14 +24,16 @@ def classify(events, verification):
                 content = b.get('content', '')
                 text = content if isinstance(content, str) else json.dumps(content)
                 noops += int('NO_PROGRESS:' in text)
-    out = {'accepted': False, 'tool_calls': tools, 'noop_denials': noops,
+                invalid_formats += int('ARTIFACT_FORMAT:' in text)
+                failed_repeats += int('FAILED_COMMAND_REPEAT:' in text)
+    out = {'accepted': False, 'tool_calls': tools, 'noop_denials': noops, 'invalid_format_denials': invalid_formats, 'failed_command_repeat_denials': failed_repeats,
            'cli_success': bool(final and final.get('subtype') == 'success' and not final.get('is_error'))}
     if final is None:
         return dict(out, status='incomplete', reason='no final CLI envelope; reconcile process before retrying')
     if not out['cli_success']:
         return dict(out, status='failed_execution', reason=final.get('subtype', 'CLI error'))
     if not str(final.get('result') or '').strip():
-        return dict(out, status='blocked_no_progress' if noops else 'incomplete', reason='CLI success with empty final is not task completion; possibly stopped by a hook')
+        return dict(out, status='blocked_failed_command' if failed_repeats else ('blocked_invalid_format' if invalid_formats else ('blocked_no_progress' if noops else 'incomplete')), reason='CLI success with empty final is not task completion; possibly stopped by a hook')
     required = verification.get('required_criteria', [])
     criteria = verification.get('criteria', {})
     passed = (verification.get('reviewer') == 'host' and verification.get('exit_code') == 0

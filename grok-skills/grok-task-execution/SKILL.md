@@ -59,6 +59,7 @@ description: 指导配置的 Grok 跨步骤持续完成任务，保存证据、�
 ## 二进制／文档产物与恢复路径
 
 - `.docx/.xlsx/.pptx/.pdf/.dll/.aex` 不能靠把文本改扩展名创建。Claude `Write` 用于生成器源代码、词表或真正的文本文件；二进制产物须由实际文档库／构建工具生成。
+- 遇到旧会话反复写已不存在的 vNN.docx，先执行 scripts/inspect-docx-sources.py --root <实际目录> --target <目标路径>，按读回的 valid_sources 选择用户指定原件；诊断不输出正文、不修改文件。不要根据旧版本清单猜测源文件。
 - 修改现有文档时先验证原文件确为对应格式，再保留原件生成一个候选；不得以 Markdown 重建代替保留模板，也不以 v48/v49/final 改名掩盖失败。
 - 收到 `ARTIFACT_FORMAT` 时改用合适的生成器并执行，不重复原 Write。已有产物则读回格式与内容；`blocked_invalid_format` 不是任务完成，不自动重放。
 - 明确的 Word “指定短语加粗”可调用 scripts/bold-docx-phrase.py（需要 python-docx），支持跨普通文本片段、拒绝覆盖原件及复杂目标段落；不适用于恢复伪 DOCX、表格／页眉或整份简历重排。优先使用适合当前要求且已测试的现成工具，不反复重新生成相同功能的代码。

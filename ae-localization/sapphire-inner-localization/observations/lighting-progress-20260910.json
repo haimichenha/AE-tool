@@ -1,0 +1,143 @@
+{
+  "date": "2026-09-10",
+  "effect_count": 25,
+  "rows": [
+    {
+      "effect": "BokehLights",
+      "display": "S_散景灯光",
+      "status": "本批中文副本已安装，正在自动验收"
+    },
+    {
+      "effect": "DropShadow",
+      "display": "S_投影和阴影",
+      "status": "同名定义未定位，需追踪别名/派生关系"
+    },
+    {
+      "effect": "EdgeRays",
+      "display": "S_边缘射线",
+      "status": "本批中文副本已安装，正在自动验收"
+    },
+    {
+      "effect": "Flashbulbs",
+      "display": "S_闪光斑点",
+      "status": "本批中文副本已安装，正在自动验收"
+    },
+    {
+      "effect": "Glare",
+      "display": "S_眩光",
+      "status": "36标题副本已安装；完整UI/功能待验收"
+    },
+    {
+      "effect": "Glint",
+      "display": "S_闪烁",
+      "status": "本批中文副本已安装，正在自动验收"
+    },
+    {
+      "effect": "GlintRainbow",
+      "display": "S_彩虹闪烁",
+      "status": "同名定义未定位，需追踪别名/派生关系"
+    },
+    {
+      "effect": "Glow",
+      "display": "S_辉光",
+      "status": "本批中文副本已安装，正在自动验收"
+    },
+    {
+      "effect": "GlowAura",
+      "display": "S_环线辉光",
+      "status": "同名定义未定位，需追踪别名/派生关系"
+    },
+    {
+      "effect": "GlowDarks",
+      "display": "S_暗调辉光",
+      "status": "同名定义未定位，需追踪别名/派生关系"
+    },
+    {
+      "effect": "GlowDist",
+      "display": "S_区域辉光",
+      "status": "同名定义未定位，需追踪别名/派生关系"
+    },
+    {
+      "effect": "GlowEdges",
+      "display": "S_边缘辉光",
+      "status": "同名定义未定位，需追踪别名/派生关系"
+    },
+    {
+      "effect": "GlowNoise",
+      "display": "S_噪波辉光",
+      "status": "同名定义未定位，需追踪别名/派生关系"
+    },
+    {
+      "effect": "GlowOrthicon",
+      "display": "S_辉光增强对比",
+      "status": "同名定义未定位，需追踪别名/派生关系"
+    },
+    {
+      "effect": "GlowRainbow",
+      "display": "S_彩虹辉光",
+      "status": "同名定义未定位，需追踪别名/派生关系"
+    },
+    {
+      "effect": "GlowRings",
+      "display": "S_光环辉光",
+      "status": "同名定义未定位，需追踪别名/派生关系"
+    },
+    {
+      "effect": "LensFlare",
+      "display": "S_镜头光晕",
+      "status": "定义已定位，标题候选待制作"
+    },
+    {
+      "effect": "LensFlareAutoTrack",
+      "display": "S_镜头光晕自动跟踪",
+      "status": "定义已定位，标题候选待制作"
+    },
+    {
+      "effect": "Light3D",
+      "display": "S_3D灯光",
+      "status": "已有汉化基线，保留并回归"
+    },
+    {
+      "effect": "LightLeak",
+      "display": "S_漏光效果",
+      "status": "崩溃记录已定位；原触发条件未复现"
+    },
+    {
+      "effect": "Rays",
+      "display": "S_射线",
+      "status": "已有汉化基线，保留并回归"
+    },
+    {
+      "effect": "SpotLight",
+      "display": "S_聚光灯",
+      "status": "定义已定位，标题候选待制作"
+    },
+    {
+      "effect": "Streaks",
+      "display": "S_条纹",
+      "status": "本批中文副本已安装，正在自动验收"
+    },
+    {
+      "effect": "UltraGlow",
+      "display": "S_极致辉光",
+      "status": "定义已定位，标题候选待制作"
+    },
+    {
+      "effect": "ZGlow",
+      "display": "S_Z辉光",
+      "status": "同名定义未定位，需追踪别名/派生关系"
+    }
+  ],
+  "batch01_effects": [
+    "BokehLights",
+    "EdgeRays",
+    "Flashbulbs",
+    "Glint",
+    "Glow",
+    "Streaks"
+  ],
+  "batch01_title_insertions": 289,
+  "batch01_deployed_as_test": true,
+  "all_ui_translated": false,
+  "grok_calls_this_batch": 0
+}

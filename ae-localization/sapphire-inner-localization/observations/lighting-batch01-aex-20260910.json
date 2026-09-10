@@ -1,0 +1,68 @@
+[
+  {
+    "source_sha256": "FF99036A45129AA758B3247EC8C43C6231EDB2E507E7814DF2DB50A765DD49ED",
+    "output_sha256": "F209F292AC4FDEE9CEB97E290466413FEC1D444B7F94DD7EE6CFB5CCF9C9FB94",
+    "display_name": "S_散景灯光副本",
+    "test_match_name": "Q_BokehLights",
+    "original_match_name": "S_BokehLights",
+    "runtime_root": "D:\\tmp\\saprt\\lights01",
+    "native_code_changed": false,
+    "original_installed_entry_changed": false,
+    "runtime_validation": "pending"
+  },
+  {
+    "source_sha256": "A6E01F96459351D4AE12CEC350FB7C2B23EB1964AFEFDD7FDBA74A748D1B23E1",
+    "output_sha256": "480263DB8ED2CB344F402A7BD1A619A3593C0D9D80CC537AF55C4EE0D38F510A",
+    "display_name": "S_边缘射线副本",
+    "test_match_name": "Q_EdgeRays",
+    "original_match_name": "S_EdgeRays",
+    "runtime_root": "D:\\tmp\\saprt\\lights01",
+    "native_code_changed": false,
+    "original_installed_entry_changed": false,
+    "runtime_validation": "pending"
+  },
+  {
+    "source_sha256": "BBC8B7DA497B39FFE549DE35325E01124022F59DD1C9661002C36924EFF580D6",
+    "output_sha256": "68A32203EB2A0B06A6DA676193B4D321DC0DDD285B7D68354977AD6D15B3BAAC",
+    "display_name": "S_闪光斑点副本",
+    "test_match_name": "Q_Flashbulbs",
+    "original_match_name": "S_Flashbulbs",
+    "runtime_root": "D:\\tmp\\saprt\\lights01",
+    "native_code_changed": false,
+    "original_installed_entry_changed": false,
+    "runtime_validation": "pending"
+  },
+  {
+    "source_sha256": "0FAF56B950659C7A4E4014A34EA7D0337C8DB8FE83E3B50A59FBAD37FA0C3986",
+    "output_sha256": "709F86036A7D9D86F07889699780ADF67967361A8B94BDF1F87D69D957DE0101",
+    "display_name": "S_闪烁副本",
+    "test_match_name": "Q_Glint",
+    "original_match_name": "S_Glint",
+    "runtime_root": "D:\\tmp\\saprt\\lights01",
+    "native_code_changed": false,
+    "original_installed_entry_changed": false,
+    "runtime_validation": "pending"
+  },
+  {
+    "source_sha256": "80E5D55EB7CADCCA3763DA5AD534541DC494071324C0FED57CE647A74DFA218A",
+    "output_sha256": "A9427B8007284E371C81B302D2FFC74E40F209EB806DB2F5D80EE5A4CEFA376D",
+    "display_name": "S_辉光副本",
+    "test_match_name": "Q_Glow",
+    "original_match_name": "S_Glow",
+    "runtime_root": "D:\\tmp\\saprt\\lights01",
+    "native_code_changed": false,
+    "original_installed_entry_changed": false,
+    "runtime_validation": "pending"
+  },
+  {
+    "source_sha256": "A9EAB6E32872ACCCE0AEFFCD7E4118CD0C27983F463B3377C939A25FDB7A059D",
+    "output_sha256": "3A1E921326B477CB05689C02055757E2F0F5CC225A03A74672276FBC057A5836",
+    "display_name": "S_条纹副本",
+    "test_match_name": "Q_Streaks",
+    "original_match_name": "S_Streaks",
+    "runtime_root": "D:\\tmp\\saprt\\lights01",
+    "native_code_changed": false,
+    "original_installed_entry_changed": false,
+    "runtime_validation": "pending"
+  }
+]

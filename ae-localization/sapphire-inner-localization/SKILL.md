@@ -7,6 +7,8 @@ description: 汉化 After Effects 的 Sapphire Light3D／Rays 参数面板及内
 
 ## 先选择工作路径
 
+- **整个光照分类继续任务**：先读 [25效果进度表](LIGHTING-PROGRESS-20260910.md)。批量候选与正式入口分开；漏光崩溃尚未复现，不盲改核心。
+
 - **S_Rays 原生汉化与正式入口**：读 [Rays 发布记录](RAYS-RELEASE-20260909.md) 与 [Grok 词表构建过程](RAYS-GROK-WORKFLOW-20260909.md)，使用版本锁定的 `build_rays_native_titles.py` / `build_rays_chinese_entry.py`；不能使用 Light3D 偏移。
 
 - **检查当前已验收版本、部署或回退**：先读 [当前状态与入口替换](references/current-state.md)。

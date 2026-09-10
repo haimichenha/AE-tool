@@ -1,0 +1,75 @@
+{
+  "source_sha256": "410C69A61BEC964322550ECC8662D60E454C1984175E2850B4244B02C31A7B91",
+  "output_sha256": "3DA5AF307B0B0B15B9B950AD9BB84A0CD33284F8174D52397EF1D97B4EBFCCE3",
+  "mapping_sha256": "A6122AD0432E4B442A9A1C8F388BB8B1F78D074E7A4371DDEBD5F55F471E1578",
+  "effects": [
+    "BokehLights",
+    "EdgeRays",
+    "Flashbulbs",
+    "Glint",
+    "Glow",
+    "Streaks"
+  ],
+  "definitions": [
+    {
+      "definition": "BokehLights",
+      "original_offset": 25884832,
+      "pointer_offset": 30739096,
+      "new_rva": 69120000,
+      "parameter_count": 48
+    },
+    {
+      "definition": "EdgeRays",
+      "original_offset": 26113856,
+      "pointer_offset": 30741016,
+      "new_rva": 69127344,
+      "parameter_count": 48
+    },
+    {
+      "definition": "Flashbulbs",
+      "original_offset": 26190624,
+      "pointer_offset": 30741560,
+      "new_rva": 69133072,
+      "parameter_count": 16
+    },
+    {
+      "definition": "Flashbulbs_Autogen",
+      "original_offset": 26192224,
+      "pointer_offset": 30741576,
+      "new_rva": 69134944,
+      "parameter_count": 27
+    },
+    {
+      "definition": "Glint",
+      "original_offset": 26235520,
+      "pointer_offset": 30742088,
+      "new_rva": 69137696,
+      "parameter_count": 38
+    },
+    {
+      "definition": "Glow",
+      "original_offset": 26241568,
+      "pointer_offset": 30742120,
+      "new_rva": 69141408,
+      "parameter_count": 39
+    },
+    {
+      "definition": "Glow_Autogen",
+      "original_offset": 26252288,
+      "pointer_offset": 30742168,
+      "new_rva": 69145264,
+      "parameter_count": 39
+    },
+    {
+      "definition": "Streaks",
+      "original_offset": 26756960,
+      "pointer_offset": 30746824,
+      "new_rva": 69148768,
+      "parameter_count": 34
+    }
+  ],
+  "title_insertions": 289,
+  "static_invariants": "only title insertions, eight existing definition pointers and PE metadata; defaults, enums, expression bodies and existing executable bytes unchanged",
+  "runtime_validation": "pending",
+  "all_ui_translated": false
+}

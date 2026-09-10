@@ -1,0 +1,106 @@
+{
+  "batch": "lighting01",
+  "effects": [
+    "BokehLights",
+    "EdgeRays",
+    "Flashbulbs",
+    "Glint",
+    "Glow",
+    "Streaks"
+  ],
+  "test_entries_installed": true,
+  "formal_entries_unchanged": 25,
+  "core_sha256": "3DA5AF307B0B0B15B9B950AD9BB84A0CD33284F8174D52397EF1D97B4EBFCCE3",
+  "observed_added_records": [
+    {
+      "test": "runtime-test01",
+      "record": "ADDED|S_BokehLights|68|CN=1"
+    },
+    {
+      "test": "runtime-test01",
+      "record": "ADDED|Q_BokehLights|68|CN=51"
+    },
+    {
+      "test": "runtime-test01",
+      "record": "ADDED|S_EdgeRays|67|CN=1"
+    },
+    {
+      "test": "runtime-test01",
+      "record": "ADDED|Q_EdgeRays|67|CN=51"
+    },
+    {
+      "test": "runtime-test01",
+      "record": "ADDED|S_Flashbulbs|41|CN=1"
+    },
+    {
+      "test": "runtime-test02",
+      "record": "ADDED|S_BokehLights|68|CN=1"
+    },
+    {
+      "test": "runtime-test02",
+      "record": "ADDED|Q_BokehLights|68|CN=51"
+    },
+    {
+      "test": "runtime-test02",
+      "record": "ADDED|S_EdgeRays|67|CN=1"
+    },
+    {
+      "test": "runtime-test02",
+      "record": "ADDED|Q_EdgeRays|67|CN=51"
+    },
+    {
+      "test": "runtime-test02",
+      "record": "ADDED|S_Flashbulbs|41|CN=1"
+    },
+    {
+      "test": "runtime-test04",
+      "record": "ADDED|S_BokehLights|68|CN=1"
+    },
+    {
+      "test": "runtime-test04",
+      "record": "ADDED|Q_BokehLights|68|CN=51"
+    },
+    {
+      "test": "runtime-test04",
+      "record": "ADDED|S_EdgeRays|67|CN=1"
+    },
+    {
+      "test": "runtime-test04",
+      "record": "ADDED|Q_EdgeRays|67|CN=51"
+    },
+    {
+      "test": "runtime-test04",
+      "record": "ADDED|S_Flashbulbs|41|CN=1"
+    },
+    {
+      "test": "runtime-test04",
+      "record": "ADDED|Q_Flashbulbs|41|CN=29"
+    },
+    {
+      "test": "runtime-test04",
+      "record": "ADDED|S_Glint|55|CN=1"
+    },
+    {
+      "test": "runtime-test04",
+      "record": "ADDED|Q_Glint|55|CN=38"
+    },
+    {
+      "test": "runtime-test04",
+      "record": "ADDED|S_Glow|53|CN=1"
+    }
+  ],
+  "flashbulbs_isolated_test": "DONE=true and END; MP4 produced",
+  "batch_render_comparison": "not completed",
+  "test_harness_blocks": [
+    "isolated Flashbulbs test ended at a save-changes dialog after successful render",
+    "runtime-test04 displayed script file/network permission denied at logging line3"
+  ],
+  "ae_security_preference_changed": false,
+  "all_ui_translated": false,
+  "pending": [
+    "finish render comparisons with authorized test output access or manual verification",
+    "common button captions, groups, popups and related UIs",
+    "remaining lighting effect implementations"
+  ],
+  "grok_calls_this_batch": 0
+}

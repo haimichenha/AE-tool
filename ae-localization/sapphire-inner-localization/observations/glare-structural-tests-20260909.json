@@ -1,0 +1,28 @@
+{
+  "deterministic_rebuild": true,
+  "negative_tests": {
+    "missing_key": {
+      "rejected": true,
+      "reason": "mapping keys must exactly match all36 native parameters",
+      "output_exists": false
+    },
+    "extra_key": {
+      "rejected": true,
+      "reason": "mapping keys must exactly match all36 native parameters",
+      "output_exists": false
+    },
+    "quote": {
+      "rejected": true,
+      "reason": "invalid title: comp_premult",
+      "output_exists": false
+    },
+    "too_long": {
+      "rejected": true,
+      "reason": "title exceeds31 CP936 bytes: comp_premult",
+      "output_exists": false
+    }
+  },
+  "test_titles_only": true,
+  "formal_plugins_modified": false,
+  "grok_translation_validation": "pending actual response"
+}

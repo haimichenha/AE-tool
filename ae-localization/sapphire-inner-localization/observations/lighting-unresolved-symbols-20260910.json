@@ -1,0 +1,145 @@
+[
+  {
+    "effect": "DropShadow",
+    "name_pointer_evidence": [
+      {
+        "name_offset": "0x1895a3c",
+        "absolute_pointer_refs": [
+          "0x1896eb0"
+        ]
+      }
+    ],
+    "exact_cpp_rtti_present": false,
+    "status": "symbol evidence only; display/implementation chain not established"
+  },
+  {
+    "effect": "GlowAura",
+    "name_pointer_evidence": [
+      {
+        "name_offset": "0x1895a80",
+        "absolute_pointer_refs": [
+          "0x1896ee8"
+        ]
+      }
+    ],
+    "exact_cpp_rtti_present": false,
+    "status": "symbol evidence only; display/implementation chain not established"
+  },
+  {
+    "effect": "GlowDarks",
+    "name_pointer_evidence": [
+      {
+        "name_offset": "0x1895a8c",
+        "absolute_pointer_refs": [
+          "0x1896ef0"
+        ]
+      }
+    ],
+    "exact_cpp_rtti_present": false,
+    "status": "symbol evidence only; display/implementation chain not established"
+  },
+  {
+    "effect": "GlowDist",
+    "name_pointer_evidence": [
+      {
+        "name_offset": "0x1895a98",
+        "absolute_pointer_refs": [
+          "0x1896ef8"
+        ]
+      }
+    ],
+    "exact_cpp_rtti_present": false,
+    "status": "symbol evidence only; display/implementation chain not established"
+  },
+  {
+    "effect": "GlowEdges",
+    "name_pointer_evidence": [
+      {
+        "name_offset": "0x1895aa4",
+        "absolute_pointer_refs": [
+          "0x1896f00"
+        ]
+      }
+    ],
+    "exact_cpp_rtti_present": false,
+    "status": "symbol evidence only; display/implementation chain not established"
+  },
+  {
+    "effect": "GlowNoise",
+    "name_pointer_evidence": [
+      {
+        "name_offset": "0x1895ab0",
+        "absolute_pointer_refs": [
+          "0x1896f08"
+        ]
+      }
+    ],
+    "exact_cpp_rtti_present": false,
+    "status": "symbol evidence only; display/implementation chain not established"
+  },
+  {
+    "effect": "GlowOrthicon",
+    "name_pointer_evidence": [
+      {
+        "name_offset": "0x1895abc",
+        "absolute_pointer_refs": [
+          "0x1896f10"
+        ]
+      }
+    ],
+    "exact_cpp_rtti_present": false,
+    "status": "symbol evidence only; display/implementation chain not established"
+  },
+  {
+    "effect": "GlowRainbow",
+    "name_pointer_evidence": [
+      {
+        "name_offset": "0x1895acc",
+        "absolute_pointer_refs": [
+          "0x1896f18"
+        ]
+      }
+    ],
+    "exact_cpp_rtti_present": false,
+    "status": "symbol evidence only; display/implementation chain not established"
+  },
+  {
+    "effect": "GlowRings",
+    "name_pointer_evidence": [
+      {
+        "name_offset": "0x1895ad8",
+        "absolute_pointer_refs": [
+          "0x1896f20"
+        ]
+      }
+    ],
+    "exact_cpp_rtti_present": false,
+    "status": "symbol evidence only; display/implementation chain not established"
+  },
+  {
+    "effect": "GlintRainbow",
+    "name_pointer_evidence": [
+      {
+        "name_offset": "0x1895a68",
+        "absolute_pointer_refs": [
+          "0x1896ed8"
+        ]
+      }
+    ],
+    "exact_cpp_rtti_present": false,
+    "status": "symbol evidence only; display/implementation chain not established"
+  },
+  {
+    "effect": "ZGlow",
+    "name_pointer_evidence": [
+      {
+        "name_offset": "0x1895b20",
+        "absolute_pointer_refs": [
+          "0x1896f68"
+        ]
+      }
+    ],
+    "exact_cpp_rtti_present": true,
+    "status": "symbol evidence only; display/implementation chain not established"
+  }
+]

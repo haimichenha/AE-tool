@@ -1,0 +1,15 @@
+{
+  "keys_checked": 36,
+  "exact_keys": true,
+  "cp936_max_bytes": 18,
+  "host_corrections": {
+    "glare_from_alpha": {
+      "before": "眩光生成 Alpha",
+      "after": "由Alpha生成眩光",
+      "reason": "Original meaning is generate glare from source alpha, not generate alpha from glare."
+    }
+  },
+  "candidate_map_sha256": "8d125d372d19632ca141376e2a265ba634b5c3827124236e19c7974ea0ff4ca4",
+  "grok_complete_without_host_correction": false,
+  "next_step": "build isolated candidate; AE runtime remains pending"
+}

@@ -1,0 +1,55 @@
+{
+  "effect": "Glare",
+  "encoding": "cp936",
+  "parameters": {
+    "comp_premult": "预乘透明度处理",
+    "affect_alpha": "影响 Alpha",
+    "blur_glare": "模糊眩光",
+    "brightness": "亮度",
+    "convolve": "卷积",
+    "glare_from_alpha": "由Alpha生成眩光",
+    "glare_res": "眩光分辨率",
+    "glare_under_source": "眩光位于源下方",
+    "hue_shift": "色相偏移",
+    "invert_mask": "反转蒙版",
+    "rays_length": "射线长度",
+    "rays_num_scale": "射线数量缩放",
+    "rays_thickness": "射线粗细",
+    "rel_height": "相对高度",
+    "rotate": "旋转",
+    "saturation": "饱和度",
+    "scale_background": "背景亮度",
+    "scale_colors": "颜色增益",
+    "scale_source": "源不透明度",
+    "size": "大小",
+    "threshold": "阈值",
+    "threshold_add_color": "阈值附加颜色",
+    "threshold_blur": "阈值模糊",
+    "type": "眩光样式",
+    "mask_type": "蒙版类型",
+    "mocha_project": "Mocha 项目",
+    "blur_mocha_mask": "模糊 Mocha 蒙版",
+    "mocha_mask_opacity": "Mocha 蒙版不透明度",
+    "invert_mocha_mask": "反转 Mocha 蒙版",
+    "resize_mocha_mask": "Mocha 蒙版缩放",
+    "resize_mocha_rel_x": "Mocha 相对宽度",
+    "resize_mocha_rel_y": "Mocha 相对高度",
+    "shift_mocha_mask": "移动 Mocha 蒙版",
+    "bypass_mocha_mask": "绕过 Mocha 蒙版",
+    "show_mocha_mask_only": "仅显示Mocha蒙版",
+    "combine_masks": "合并蒙版"
+  },
+  "status": "candidate_static_only",
+  "provenance": {
+    "grok_model": "grok-4.6",
+    "grok_calls": 2,
+    "host_corrections": {
+      "glare_from_alpha": {
+        "before": "眩光生成 Alpha",
+        "after": "由Alpha生成眩光",
+        "reason": "Original meaning is generate glare from source alpha, not generate alpha from glare."
+      }
+    },
+    "not_runtime_tested": true
+  }
+}

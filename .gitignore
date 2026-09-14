@@ -24,3 +24,16 @@ settings.local.json
 trials/
 logs/
 outputs/
+
+# Raw user/runtime artifacts are not publication evidence
+*.dmp
+*.aep
+*.aepx
+*.tif
+*.tiff
+*.mp4
+*.mov
+# Machine-specific diagnostic bundles remain local; publish reviewed summaries instead
+/ae-localization/sapphire-inner-localization/observations/canonical-repair-20260913/
+/ae-localization/sapphire-inner-localization/observations/lightleak-groups-20260912/
+/ae-localization/sapphire-inner-localization/observations/preset-buttons-20260912/

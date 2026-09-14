@@ -1,0 +1,45 @@
+{
+  "review_date": "2026-09-14",
+  "offline_unittest_count": 82,
+  "offline_unittest_passed": true,
+  "skill_frontmatter_validation": [
+    "skills",
+    "sapphire-inner-localization"
+  ],
+  "native_host_model_scenarios": [
+    "success with cached negative menu IDs",
+    "wrong effect identity rejected",
+    "existing project refused",
+    "user project takeover neither saved nor closed"
+  ],
+  "guard_source_rebuilds": [
+    {
+      "version": "rays09",
+      "source_sha256": "54DB5D9C542AE758C0E9F3803FBA60F830A6B572B5DF1B439605EE2DF8B71BBE",
+      "output_sha256": "F0F5CF1DACACD70B8CCEDECA025FD412FA8C11FCCBC416A246B576D54C383206",
+      "matches_previous_verified_candidate": true
+    },
+    {
+      "version": "glare01",
+      "source_sha256": "D5AB45A84E7BE8705FD9269EE0C702F2741A0D9B42B02F064C2719475F8533BE",
+      "output_sha256": "03C1D92E47F67C01CF4F0D55504B7C98AF00C76A08388CC39624B48467A56E25",
+      "matches_previous_verified_candidate": true
+    },
+    {
+      "version": "rem16",
+      "source_sha256": "2852350705D672CF49DABC17DF75D77ACC1DE39610B3C9BBA389244E0D315C12",
+      "output_sha256": "F80B250E2BE1B270950680A734C8D08B7D88EB48045F562F92A44C8DA1E241EA",
+      "matches_previous_verified_candidate": true
+    }
+  ],
+  "canonical_entry_rebuild_count": 23,
+  "canonical_entry_rebuilds_identical": true,
+  "real_lensflare_snapshot_instances_rechecked": 5,
+  "real_lensflare_frames_rechecked": 6,
+  "actual_ae_launched_this_upgrade": false,
+  "installed_plugins_modified_this_upgrade": false,
+  "limits": "Mock host checks do not replace live Adobe or manual editor acceptance; original binary inputs/frames remain local.",
+  "staged_tree_export_tests_passed": true,
+  "staged_tree_unittest_count": 82,
+  "staged_tree_skill_validation_passed": true
+}

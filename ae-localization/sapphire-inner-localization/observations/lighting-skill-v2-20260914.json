@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-14",
+  "installation_snapshot_date": "2026-09-13",
+  "scope": "Sapphire Lighting, 25 effects on the validated AE 25.6 Windows installation; not live state on other machines",
+  "active_entries": [
+    {
+      "effect": "S_Light3D",
+      "display": "S_3D灯光",
+      "runtime": "l3dao",
+      "aex_sha256": "A569D6B564F75A59185C0F2E1A25A3CBA08BD6F8A2435EEB3FE2FE1CD4C3F985",
+      "feedback": "historical user acceptance; see Light3D/Mocha version records"
+    },
+    {
+      "effect": "S_Rays",
+      "display": "S_射线",
+      "runtime": "rays09",
+      "aex_sha256": "914F931DC9517863D5CB9012474938C1AC8FCACF06B6E2F7A0F80D1FAEA289E1",
+      "feedback": "user confirmed adding no longer crashed; same-project original/guard two-frame control identical"
+    },
+    {
+      "effect": "S_LightLeak",
+      "display": "S_漏光效果",
+      "runtime": "rem16",
+      "aex_sha256": "0D47DC191A708A52E482BB4C185ACD1C4C6198FD85E3CE6E2F26F9B6027CB18A",
+      "parameter_count": 104,
+      "translated_display_names": 90,
+      "native_instances_in_test": 1,
+      "render_frames": 2,
+      "pixels_identical": true,
+      "feedback": "user explicitly confirmed normal use"
+    },
+    {
+      "effect": "S_GlowDist",
+      "display": "S_区域辉光",
+      "runtime": "rem16",
+      "aex_sha256": "F8F6F80C83D0050F30DA756C8F74ABDB8F1FE577A06AF43F61532BC3D92FB38D",
+      "parameter_count": 41,
+      "translated_display_names": 28,
+      "native_instances_in_test": 5,
+      "render_frames": 6,
+      "pixels_identical": true,
+      "feedback": "user said localization appeared normal; not exhaustive"
+    },
+    {
+      "effect": "S_Glare",
+      "display": "S_眩光",
+      "runtime": "glare01",
+      "aex_sha256": "4C421AA62E61974A53880650909240A499AE818DA3ED5814490533ECF1BD57C0",
+      "parameter_count": 51,
+      "translated_display_names": 35,
+      "native_instances_in_test": 5,
+      "render_frames": 6,
+      "pixels_identical": true,
+      "feedback": "user reported apparently normal use in response to editor-check question; detailed sequence not supplied"
+    },
+    {
+      "effect": "S_LensFlare",
+      "display": "S_镜头光晕",
+      "runtime": "rem16",
+      "aex_sha256": "20152CF7C1B7C516A9D36BD5063C8778A9D1D5067142FD47A32D44DC09853142",
+      "parameter_count": 130,
+      "translated_display_names": 71,
+      "native_instances_in_test": 5,
+      "render_frames": 6,
+      "pixels_identical": true,
+      "feedback": "user later reported no major problems and requested skill publication; scoped to recent use"
+    }
+  ],
+  "runtime_sha256": {
+    "l3dao": "410C69A61BEC964322550ECC8662D60E454C1984175E2850B4244B02C31A7B91",
+    "rays09": "F0F5CF1DACACD70B8CCEDECA025FD412FA8C11FCCBC416A246B576D54C383206",
+    "rem16": "F80B250E2BE1B270950680A734C8D08B7D88EB48045F562F92A44C8DA1E241EA",
+    "glare01": "03C1D92E47F67C01CF4F0D55504B7C98AF00C76A08388CC39624B48467A56E25"
+  },
+  "remaining_candidates": [
+    {
+      "effect": "S_BokehLights",
+      "display": "S_散景灯光",
+      "state": "candidate_not_connected_to_formal_entry"
+    },
+    {
+      "effect": "S_EdgeRays",
+      "display": "S_边缘射线",
+      "state": "candidate_not_connected_to_formal_entry"
+    },
+    {
+      "effect": "S_Flashbulbs",
+      "display": "S_闪光斑点",
+      "state": "candidate_not_connected_to_formal_entry"
+    },
+    {
+      "effect": "S_Glint",
+      "display": "S_闪烁",
+      "state": "candidate_not_connected_to_formal_entry"
+    },
+    {
+      "effect": "S_Glow",
+      "display": "S_辉光",
+      "state": "candidate_not_connected_to_formal_entry"
+    },
+    {
+      "effect": "S_Streaks",
+      "display": "S_条纹",
+      "state": "candidate_not_connected_to_formal_entry"
+    },
+    {
+      "effect": "S_DropShadow",
+      "display": "S_投影和阴影",
+      "state": "candidate_not_connected_to_formal_entry"
+    },
+    {
+      "effect": "S_GlintRainbow",
+      "display": "S_彩虹闪烁",
+      "state": "candidate_not_connected_to_formal_entry"
+    },
+    {
+      "effect": "S_GlowAura",
+      "display": "S_环线辉光",
+      "state": "candidate_not_connected_to_formal_entry"
+    },
+    {
+      "effect": "S_GlowDarks",
+      "display": "S_暗调辉光",
+      "state": "candidate_not_connected_to_formal_entry"
+    },
+    {
+      "effect": "S_GlowEdges",
+      "display": "S_边缘辉光",
+      "state": "candidate_not_connected_to_formal_entry"
+    },
+    {
+      "effect": "S_GlowNoise",
+      "display": "S_噪波辉光",
+      "state": "candidate_not_connected_to_formal_entry"
+    },
+    {
+      "effect": "S_GlowOrthicon",
+      "display": "S_辉光增强对比",
+      "state": "candidate_not_connected_to_formal_entry"
+    },
+    {
+      "effect": "S_GlowRainbow",
+      "display": "S_彩虹辉光",
+      "state": "candidate_not_connected_to_formal_entry"
+    },
+    {
+      "effect": "S_GlowRings",
+      "display": "S_光环辉光",
+      "state": "candidate_not_connected_to_formal_entry"
+    },
+    {
+      "effect": "S_LensFlareAutoTrack",
+      "display": "S_镜头光晕自动跟踪",
+      "state": "candidate_not_connected_to_formal_entry"
+    },
+    {
+      "effect": "S_SpotLight",
+      "display": "S_聚光灯",
+      "state": "candidate_not_connected_to_formal_entry"
+    },
+    {
+      "effect": "S_UltraGlow",
+      "display": "S_极致辉光",
+      "state": "candidate_not_connected_to_formal_entry"
+    },
+    {
+      "effect": "S_ZGlow",
+      "display": "S_Z辉光",
+      "state": "candidate_not_connected_to_formal_entry"
+    }
+  ],
+  "disabled_trial_entries": 23,
+  "limits": [
+    "Not all menus/editors translated or exercised",
+    "Premiere and exhaustive footage/bit-depth/GPU settings not accepted",
+    "Earlier LensFlare intermittent fault lacks matching new dump; root cause unconfirmed",
+    "Raw dumps/projects/materials and machine-specific installers intentionally not published"
+  ],
+  "source_evidence": "Reviewed local per-pilot plan/deployment/validation records; only this path-free summary is published"
+}

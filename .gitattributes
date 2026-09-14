@@ -1,0 +1,9 @@
+# Stable text bytes for mapping fingerprints and reproducible skill sources.
+/README.md text eol=lf
+/skills/*.md text eol=lf
+/ae-localization/sapphire-inner-localization/**/*.md text eol=lf
+/ae-localization/sapphire-inner-localization/**/*.json text eol=lf
+/ae-localization/sapphire-inner-localization/**/*.py text eol=lf
+/ae-localization/sapphire-inner-localization/**/*.jsx text eol=lf
+/ae-localization/sapphire-inner-localization/**/*.cjs text eol=lf
+/ae-localization/sapphire-inner-localization/**/*.txt text eol=lf

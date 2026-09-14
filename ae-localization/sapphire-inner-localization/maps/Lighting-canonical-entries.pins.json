@@ -1,0 +1,94 @@
+{
+  "S_BokehLights": {
+    "source_sha256": "FF99036A45129AA758B3247EC8C43C6231EDB2E507E7814DF2DB50A765DD49ED",
+    "source_file": "S_BokehLights.aex"
+  },
+  "S_EdgeRays": {
+    "source_sha256": "A6E01F96459351D4AE12CEC350FB7C2B23EB1964AFEFDD7FDBA74A748D1B23E1",
+    "source_file": "S_EdgeRays.aex"
+  },
+  "S_Flashbulbs": {
+    "source_sha256": "BBC8B7DA497B39FFE549DE35325E01124022F59DD1C9661002C36924EFF580D6",
+    "source_file": "S_Flashbulbs.aex"
+  },
+  "S_Glint": {
+    "source_sha256": "0FAF56B950659C7A4E4014A34EA7D0337C8DB8FE83E3B50A59FBAD37FA0C3986",
+    "source_file": "S_Glint.aex"
+  },
+  "S_Glow": {
+    "source_sha256": "80E5D55EB7CADCCA3763DA5AD534541DC494071324C0FED57CE647A74DFA218A",
+    "source_file": "S_Glow.aex"
+  },
+  "S_Streaks": {
+    "source_sha256": "A9EAB6E32872ACCCE0AEFFCD7E4118CD0C27983F463B3377C939A25FDB7A059D",
+    "source_file": "S_Streaks.aex"
+  },
+  "S_Glare": {
+    "source_sha256": "E55E0F35DB86F80E0B782A6D51C27A0DB50686D9547ED6A60E071CA6B1A165A6",
+    "source_file": "S_Glare.aex"
+  },
+  "S_DropShadow": {
+    "source_sha256": "DE97CF11CCACA271BED7F1E8AC52624BEE9C299D6373F865C9D00A5B7CD29192",
+    "source_file": "S_DropShadow.aex"
+  },
+  "S_GlintRainbow": {
+    "source_sha256": "AD3C29AE2D92451268C762A7A6EEC4BE743B304493A22020812710F6DD23B59C",
+    "source_file": "S_GlintRainbow.aex"
+  },
+  "S_GlowAura": {
+    "source_sha256": "C6C8C74FBBAD3A31A04FC6A753114AD5308230482CFE99A1CF06D25102BE41C0",
+    "source_file": "S_GlowAura.aex"
+  },
+  "S_GlowDarks": {
+    "source_sha256": "3A54FFEE979D372D2891A2F002A7A89FE3050FB58F04DDD7CB9811EA74F010D1",
+    "source_file": "S_GlowDarks.aex"
+  },
+  "S_GlowDist": {
+    "source_sha256": "57886289D812A4397CA5CF295316AAFADC3FF9F9269196EB93127C652E7A118E",
+    "source_file": "S_GlowDist.aex"
+  },
+  "S_GlowEdges": {
+    "source_sha256": "DA2E2212447095EB73397273513ADCF8929A44C32B35DE4FC35BB6E43463221D",
+    "source_file": "S_GlowEdges.aex"
+  },
+  "S_GlowNoise": {
+    "source_sha256": "29A1E89433F664DA7B2604954F593D0CC370BC45B878F5004DE72F493BFA92CD",
+    "source_file": "S_GlowNoise.aex"
+  },
+  "S_GlowOrthicon": {
+    "source_sha256": "D948468B12AE3778EEE5A88F165A62FBBE97C4851FFA5AAD56827F0ADCE63F61",
+    "source_file": "S_GlowOrthicon.aex"
+  },
+  "S_GlowRainbow": {
+    "source_sha256": "9104B6FF30E70F81B2D8BEF40667356569ADB9EAAF227F4CCF7EEA8F19553867",
+    "source_file": "S_GlowRainbow.aex"
+  },
+  "S_GlowRings": {
+    "source_sha256": "FAE47CEF8687541048280656117E96AF25642BE59C697E79C31A351557C2A418",
+    "source_file": "S_GlowRings.aex"
+  },
+  "S_LensFlare": {
+    "source_sha256": "818795B62140BC7AE5E5EAB23149FC516173D3A69A67805CA4CE1807D506F085",
+    "source_file": "S_LensFlare.aex"
+  },
+  "S_LensFlareAutoTrack": {
+    "source_sha256": "815A7CC3FB3967F2A2DDB4636FBEE9CB076A430AAD2D3687601BDBD738B14092",
+    "source_file": "S_LensFlareAutoTrack.aex"
+  },
+  "S_LightLeak": {
+    "source_sha256": "1FBBD1F73C8B3040C60AC7A0671882395977B7930128B4BBF71C84C72B29F49A",
+    "source_file": "S_LightLeak.aex"
+  },
+  "S_SpotLight": {
+    "source_sha256": "D1E96774AAE3628DCBA1D5D65BE9CF435A904948C880C744042CB072CEAF6FCC",
+    "source_file": "S_SpotLight.aex"
+  },
+  "S_UltraGlow": {
+    "source_sha256": "A4038AF2A2D04A420B37B0C8EC78ABCDF2E7C6951539D8CB4514838A6F45AFF3",
+    "source_file": "S_UltraGlow.aex"
+  },
+  "S_ZGlow": {
+    "source_sha256": "C3A04683A3D7CE1090A03C90A78CD722D694CCBEB5D68221952FF9F44A719FCD",
+    "source_file": "S_ZGlow.aex"
+  }
+}

@@ -1,11 +1,14 @@
 """Read-only Lighting inventory against a pinned analysis core; no deployment.
-Missing same-name definitions or retained old strings do not prove UI state.
+Includes underscore aliases and _Autogen definitions. Static matching alone does not prove live binding.
 """
 import argparse,hashlib,json,re,struct
 from pathlib import Path
 from new_light3d_bulk_trial import parse
 from build_light3d_chinese_entry import property_field
 PIN='410C69A61BEC964322550ECC8662D60E454C1984175E2850B4244B02C31A7B91'
+def definition_matches_entry(definition,entry):
+ return definition.removesuffix('_Autogen').replace('_','')==entry
+
 def collect(core_path,plugin_dir):
  b=Path(core_path).read_bytes();sha=lambda x:hashlib.sha256(x).hexdigest().upper()
  if sha(b)!=PIN:raise ValueError('unsupported analysis baseline')
@@ -16,7 +19,8 @@ def collect(core_path,plugin_dir):
   for tag,label in [(b'eman','display_name'),(b'ANMe','match_name')]:
    at,size=property_field(data,tag);row[label]=data[at+1:at+1+data[at]].decode('cp936')
   name=p.stem.removeprefix('S_')
-  for match in re.finditer(rb'\(def_effect '+re.escape(name.encode())+rb'(?:_Autogen)?\s',b):
+  for match in re.finditer(rb'\(def_effect ([A-Za-z0-9_]+)\s',b):
+   if not definition_matches_entry(match.group(1).decode('ascii'),name):continue
    tree,end=parse(b,match.start());nodes=tree.children[4].children
    keys=[nodes[i].atom(b).decode('ascii') for i in range(len(nodes)-1) if nodes[i].kind=='atom' and nodes[i+1].atom(b)==b'=']
    vs,va,rs,ro=next(s for s in sections if s[3]<=match.start()<s[3]+s[2]);pointer=struct.pack('<Q',base+va+match.start()-ro)

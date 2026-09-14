@@ -1,0 +1,130 @@
+{
+  "status": "translation_draft_only_not_applied",
+  "scope": "Sapphire lighting shared UI; preserves internal tokens and existing option indices",
+  "encoding_policy": "Host-native display candidates use CP936 only after call-site validation; editor UI encoding must be determined separately",
+  "constraints": [
+    "Never globally replace these strings in a DLL or DSL",
+    "Keep parameter match names, command recognition strings, enum tokens, option count/order and serialized values unchanged",
+    "Translate only a separately verified display consumer",
+    "A translation draft is not a built, installed or runtime-verified patch"
+  ],
+  "buttons": [
+    {
+      "source": "Load Preset",
+      "zh_CN": "载入预设",
+      "scope": "right-hand button caption only",
+      "display_call_rva": "0xD93D65",
+      "protected_consumers": ["0xD6D91E", "0xD92F2B", "0xD93D39", "0xDAF7C3"],
+      "evidence": "Chinese right-hand caption observed in isolated Glare trial; trial subsequently restored",
+      "runtime_action_acceptance": "not established"
+    },
+    {
+      "source": "Save Preset",
+      "zh_CN": "保存预设",
+      "scope": "right-hand button caption only",
+      "display_call_rva": "0xD93CD2",
+      "protected_consumers": ["0xD6D93A", "0xD93010", "0xD93CA6", "0xDAF61F"],
+      "evidence": "Chinese right-hand caption observed in isolated Glare trial; trial subsequently restored",
+      "runtime_action_acceptance": "no visible save dialog confirmed; do not claim successful preset save"
+    },
+    {
+      "source": "Edit Mocha",
+      "zh_CN": "编辑 Mocha",
+      "scope": "button caption candidate; separate from property identity",
+      "status": "display/identity split required before patching"
+    },
+    {
+      "source": "Edit %s",
+      "zh_CN": "编辑 %s",
+      "scope": "custom editor button caption candidate",
+      "constraints": ["Preserve the single %s placeholder", "Do not translate the Edit prefix used by recognition paths"],
+      "status": "prior single-call experiment not visibly effective and restored; excluded from preset-only candidate"
+    }
+  ],
+  "input_labels": [
+    {"source": "Background", "zh_CN": "背景", "status": "internal/source name also used in logic; display-only alias required"},
+    {"source": "Matte from Layer", "zh_CN": "图层遮罩", "status": "Matte from prefix has multiple comparison consumers; do not rewrite identity"},
+    {"source": "Matte from Path", "zh_CN": "路径遮罩", "status": "Matte from prefix has multiple comparison consumers; do not rewrite identity"}
+  ],
+  "group_labels": [
+    {"definition": "LightLeak", "internal_doc_group_name": "Element1", "zh_CN": "元素1", "status": "display consumer not yet located"},
+    {"definition": "LightLeak", "internal_doc_group_name": "Element2", "zh_CN": "元素2", "status": "display consumer not yet located"},
+    {"definition": "LightLeak", "internal_doc_group_name": "Element3", "zh_CN": "元素3", "status": "display consumer not yet located"}
+  ],
+  "popup_display_candidates": [
+    {
+      "definition": "UltraGlow",
+      "parameter_key": "highlights_combine",
+      "internal_tokens_unchanged": [
+        "Multiply", "Highlights_Only", "Dissolve", "Screen", "Overlay",
+        "Soft_Light", "Hard_Light", "Color_Dodge", "Color_Burn", "Darken",
+        "Lighten", "Add", "Subtract", "Difference", "Exclusion", "Hue",
+        "Saturation", "Chroma", "Luminance", "Linear_Dodge", "Linear_Burn",
+        "Linear_Light", "Vivid_Light", "Pin_Light"
+      ],
+      "zh_CN_in_same_order": [
+        "正片叠底", "仅高光", "溶解", "滤色", "叠加",
+        "柔光", "强光", "颜色减淡", "颜色加深", "变暗",
+        "变亮", "相加", "相减", "差值", "排除", "色相",
+        "饱和度", "色度", "亮度", "线性减淡", "线性加深",
+        "线性光", "亮光", "点光"
+      ],
+      "source_evidence": "Exact token sequence was previously read from the pinned UltraGlow DSL modifier; translation is not applied"
+    },
+    {
+      "definition": "Glare",
+      "parameter_key": "glare_res",
+      "internal_tokens_unchanged": ["Full", "Half", "Quarter"],
+      "zh_CN_in_same_order": ["完整", "二分之一", "四分之一"]
+    },
+    {
+      "definitions": ["LensFlare", "LensFlareAutoTrack"],
+      "parameter_key": "performance",
+      "internal_tokens_unchanged": ["full_flare", "priority_only"],
+      "zh_CN_in_same_order": ["完整光晕", "仅优先元素"]
+    },
+    {
+      "definition": "LensFlare",
+      "parameter_key": "occlusion",
+      "internal_tokens_unchanged": ["None", "Luma", "Alpha"],
+      "zh_CN_in_same_order": ["无", "亮度", "透明度"]
+    },
+    {
+      "definition": "UltraGlow",
+      "parameter_key": "edge_combine",
+      "internal_tokens_unchanged": ["Screen", "Add", "Edges_Only"],
+      "zh_CN_in_same_order": ["滤色", "相加", "仅边缘"]
+    },
+    {
+      "definition": "UltraGlow",
+      "parameter_key": "highlights_texture",
+      "internal_tokens_unchanged": ["Plasma", "Micro"],
+      "zh_CN_in_same_order": ["等离子纹理", "微纹理"]
+    },
+    {
+      "definition": "Drop_Shadow",
+      "parameter_key": "matte_use",
+      "internal_tokens_unchanged": ["Luma", "Alpha"],
+      "zh_CN_in_same_order": ["亮度", "透明度"]
+    },
+    {
+      "definition": "Z_Glow",
+      "parameter_key": "z_buffer_type",
+      "internal_tokens_unchanged": ["Black_is_Near", "White_is_Near"],
+      "zh_CN_in_same_order": ["黑色为近端", "白色为近端"]
+    },
+    {
+      "definition": "Z_Glow",
+      "parameter_key": "z_buffer_use",
+      "internal_tokens_unchanged": ["Luma", "Alpha"],
+      "zh_CN_in_same_order": ["亮度", "透明度"]
+    },
+    {
+      "definition": "Glare",
+      "parameter_key": "combine_masks",
+      "internal_tokens_unchanged": ["Union", "Intersect", "Mocha_Only"],
+      "zh_CN_in_same_order": ["并集", "交集", "仅 Mocha"]
+    }
+  ],
+  "popup_patch_status": "No safe independent popup-label mechanism has been established. Do not substitute Chinese strings into the DSL popup token list."
+}

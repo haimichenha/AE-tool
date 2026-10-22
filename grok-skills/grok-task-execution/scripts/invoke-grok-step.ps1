@@ -38,7 +38,10 @@ $outcome=Get-GrokCallOutcome $run
 $payload=$null
 if($outcome.Class -eq 'ok'){$payload=Get-Prop $outcome.Envelope 'structured_output' $null; if($null -eq $payload){$payload=ConvertTo-ContractObject $outcome.Payload}}
 $valid=($null -ne $payload -and (Get-Prop $payload 'task_id' '') -eq $req.task_id -and (Get-Prop $payload 'phase' '') -eq $req.phase -and (Get-Prop $payload 'status' '') -in @('ready','needs_evidence','blocked'))
-$result=[ordered]@{transport_class=$outcome.Class;contract_valid=$valid;requested_model=$Model;destination_origin=$origin;tools_enabled=$false;request_sha256=(Get-FileHash -LiteralPath $RequestFile -Algorithm SHA256).Hash;payload=$payload;host_acceptance='pending';timed_out=$run.timedOut}
+# Diagnostic enums only: raw CLI/provider errors can contain submitted data.
+# A transient label is not an automatic retry instruction.
+$retryAction = if ($outcome.Class -eq 'hard') { 'stop' } elseif ($outcome.Class -eq 'transient') { 'host_review_required' } elseif (-not $valid) { 'host_review_required' } else { 'none' }
+$result=[ordered]@{transport_class=$outcome.Class;transport_reason=$outcome.Reason;retry_action=$retryAction;contract_valid=$valid;requested_model=$Model;destination_origin=$origin;tools_enabled=$false;request_sha256=(Get-FileHash -LiteralPath $RequestFile -Algorithm SHA256).Hash;payload=$payload;host_acceptance='pending';timed_out=$run.timedOut}
 $json=$result | ConvertTo-Json -Depth 24
 $json | Set-Content -LiteralPath (Join-Path $OutputDirectory 'result.json') -Encoding UTF8
 $json

@@ -108,8 +108,8 @@ function Invoke-GrokCli($Endpoint, [string[]]$Arguments, [string]$WorkingDirecto
     }
 }
 
-# transient : retry as-is with an escalated budget, no contract complaint
-# hard      : stop now, retrying cannot help
+# transient : host reviews whether a bounded retry is justified; not permission
+# hard      : stop this route; configuration/budget needs an authorized decision
 function Get-GrokFailureClass([string]$Text, $Status) {
     $t = ([string]$Text).ToLowerInvariant()
     $code = 0
@@ -118,9 +118,10 @@ function Get-GrokFailureClass([string]$Text, $Status) {
     $hardPatterns = @(
         'unknown option', 'unrecognized option',
         'invalid api key', 'invalid_api_key', 'authentication_error', 'unauthorized',
-        'permission_error', 'permission denied', 'model not found',
+        'permission_error', 'permission denied', 'model not found', 'model_not_found',
         'does not exist', 'insufficient balance', 'insufficient quota',
-        'quota exceeded', 'account is not authorized'
+        'insufficient_quota', 'quota exceeded', 'account is not authorized',
+        'budget_exhausted', 'error_max_budget_usd'
     )
     foreach ($p in $hardPatterns) { if ($t.Contains($p)) { return 'hard' } }
     if ($code -in @(400, 401, 403, 404, 422)) { return 'hard' }
@@ -128,8 +129,7 @@ function Get-GrokFailureClass([string]$Text, $Status) {
     $transientPatterns = @(
         'no available channel', 'overloaded', 'rate limit', 'rate_limit', 'timeout', 'timed out',
         'temporarily', 'try again', 'server-side issue', 'connection',
-        'socket', 'econnreset', 'bad gateway', 'service unavailable',
-        'budget', 'budget_exhausted', 'error_max_budget_usd'
+        'socket', 'econnreset', 'bad gateway', 'service unavailable'
     )
     foreach ($p in $transientPatterns) { if ($t.Contains($p)) { return 'transient' } }
     if ($code -in @(408, 409, 425, 429, 500, 502, 503, 504, 529)) { return 'transient' }
@@ -161,14 +161,17 @@ function Get-GrokCallOutcome($Run) {
         $msg = [string](Get-Prop $cli 'result' '')
         $reason = [string](Get-Prop $cli 'terminal_reason' '')
         $subtype = [string](Get-Prop $cli 'subtype' '')
-        $class = Get-GrokFailureClass "$msg`n$reason`n$subtype`n$($Run.stderr)" $status
+        # Some CLI versions leave result empty and put provider codes in errors.
+        # Classify these in memory; callers must not publish raw error bodies.
+        $details = Get-Prop $cli 'errors' @()
+        $detailText = ConvertTo-Json -InputObject $details -Depth 8 -Compress
+        $class = Get-GrokFailureClass "$msg`n$reason`n$subtype`n$detailText`n$($Run.stderr)" $status
 
-        # Budget exhaustion is deterministic, not flaky: the only useful response
-        # is a bigger ceiling. Name it so the caller can say so out loud instead
-        # of reporting an empty provider message.
+        # A budget stop is not transient. The host may narrow the work or ask
+        # for a new budget; this result never authorizes an automatic increase.
         if ($reason -eq 'budget_exhausted' -or $subtype -eq 'error_max_budget_usd') {
             return [pscustomobject]@{
-                Class = 'transient'; Reason = 'budget_exhausted'; Envelope = $cli; Payload = ''
+                Class = 'hard'; Reason = 'budget_exhausted'; Envelope = $cli; Payload = ''
                 Error = 'Budget exhausted before the task finished.'
             }
         }

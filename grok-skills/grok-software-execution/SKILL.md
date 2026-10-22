@@ -1,13 +1,15 @@
 ---
 name: grok-software-execution
-description: Run evidence-gated software investigation, implementation, and verification through the configured Grok model without switching models. Use when a Claude Code task must keep progressing through inspect, act, verify, and acceptance; when Grok previously stopped after a summary, ignored the target directory, or gave unsupported conclusions.
+description: 维护或明确使用 Grok 软件专用旧执行器及共享 Claude CLI 传输层时使用。普通的 Grok 委派走相邻 grok-task-execution；不接管未要求外部模型的软件开发任务。
 ---
 
 # Grok Software Execution
 
 跨领域持续任务（代码、文档、数据、研究、运维）优先使用相邻的 [grok-task-execution](../grok-task-execution/SKILL.md)。本技能保留软件专用执行器及公共传输依赖；旧 manifest runner 的 ACTION/VERIFY 共用重试计数，不能把最后一次 ACTION 成功但缺少 VERIFY 当作已验收。
 
-Run `scripts/run-grok-direct-task.ps1` for normal software tasks: Grok directly reads files, runs permitted commands, edits authorized target roots, then verifies. Use `run-grok-software-task.ps1` only when direct tools are unavailable and a constrained manifest fallback is required.
+普通软件协作默认使用 `grok-task-execution/scripts/invoke-grok-step.ps1`，只发送已审阅的证据包，由宿主执行和验收。不要自动运行本目录的旧 direct/manifest/supervisor 脚本：它们仍含历史默认模型、自动增额逻辑或宽范围读取/执行能力，与推荐适配器的限制不同。
+
+仅当用户明确选择旧执行器，并核对模型、端点、数据范围、工具权限和总预算后才考虑使用。限制和迁移方式见 [接入说明](../grok-task-execution/references/software-stack-integration.md)。本轮共享分类修复不等于旧执行器全面改造完成。
 
 ## Required inputs
 
@@ -16,14 +18,14 @@ Run `scripts/run-grok-direct-task.ps1` for normal software tasks: Grok directly 
 - Begin in `ReadOnly` mode for unfamiliar software, binaries, installers, or external plug-ins.
 - Use `Implement` only for authorized, reversible workspace changes.
 
-## Workflow
+## Legacy workflow (only after explicit selection and review)
 
 1. Let the runner create a bounded evidence packet from the target roots.
 2. Let the same configured Grok model receive only the task card, evidence packet, and acceptance criteria through `claude --bare`.
 3. Require JSON evidence IDs, action records, acceptance results, remaining work, and a next action.
 4. Treat directory enumeration as phase-one evidence only. Require a concrete content fact from every named script, reference, state, configuration, and text artifact before cross-file conclusions.
 5. Reject output that cites unknown evidence IDs, summarizes a file with no matching read record, marks criteria passed without verification, or declares completion while remaining work is non-empty.
-6. Re-run the same Grok model with the validation failure as feedback, up to the configured retry limit.
+6. Only retry with new diagnostic evidence within the approved budget and count limits. Model/permission/quota/budget failures stop the route; the old automatic budget ladder is not authorization to spend more.
 7. Report completion only when every criterion is passed; otherwise report the exact blocked or missing-evidence state.
 
 ## Anti-fabrication
